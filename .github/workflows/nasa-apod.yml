@@ -1,0 +1,46 @@
+name: 🌌 NASA APOD Daily
+
+# Pulls NASA's Astronomy Picture of the Day and refreshes the panel in README.md.
+# Add an optional repo secret NASA_API_KEY (from https://api.nasa.gov) for higher
+# rate limits — otherwise the built-in DEMO_KEY is used, which is plenty for 1 call/day.
+
+on:
+  schedule:
+    - cron: "22 6 * * *"   # ~06:22 UTC daily, after APOD refreshes
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apod-update
+  cancel-in-progress: false
+
+jobs:
+  update-apod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch & update APOD panel
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+        run: python .github/scripts/update_apod.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "🛰️ APOD: refresh picture of the day"
+            git push
+          else
+            echo "APOD unchanged — nothing to commit."
+          fi

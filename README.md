@@ -1,136 +1,184 @@
-# 🌌 Welcome to My Digital Universe!
+<!-- ═══════════════════════  MANN PATEL · Mann5700  ═══════════════════════ -->
+<!-- Handcrafted space-themed profile. The NASA panel below auto-refreshes daily. -->
+
+<img src="./assets/header.svg" width="100%" alt="Mann Patel — building clean software across the digital galaxy"/>
 
 <p align="center">
-  <!-- Interactive planet/constellation stats or cosmic banner -->
-  <img src="https://vercel.app" alt="Space Banner" />
-</p>
-
-## 🚀 About the Captain
-* **Mission Objective:** Building clean applications across the digital galaxy.
-* **Current Orbit:** Working on [Project Name] or analyzing data at [Company/School].
-* **Deep Space Research:** Diving deep into [Your Focus Area: e.g., React, Python, Devops].
-* **Comm-Link:** Reach out to me via email or social links below!
-
-## 🪐 Tech Constellation
-<!-- Group your GPRM-generated badges into clusters resembling stars -->
-<p align="left">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-</p>
-
-## 📊 Cosmic Statistics
-<!-- Apply deep space/galaxy themes to your automated stats cards -->
-<p align="center">
-  <img src="https://vercel.app" alt="GitHub Stats" height="180px"/>
-  <img src="https://vercel.app" alt="Top Languages" height="180px"/>
-</p>
-
-## ☄️ Orbit Activity Graph
-<p align="center">
-  <img src="https://vercel.app" width="100%" alt="Activity Graph" />
-</p>
-
-<!-- HEADER BANNER -->
-<p align="center">
-  <img src="https://vercel.app🚀&fontSize=40&fontColor=FFFFFF&animation=twinkling" alt="Space Header" />
-</p>
-
-<!-- COSMIC SUBTITLE -->
-<p align="center">
-  <img src="https://demolab.com+⭐;Analyzing+stellar+code+🔭" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=720&height=45&lines=Full-Stack+Developer+%2B+UI%2FUX+Designer;Machine+Learning+%E2%80%A2+GANs+%E2%80%A2+Distributed+Systems;Exploring+the+universe%2C+one+commit+at+a+time;Space+enthusiast+who+codes+among+the+stars" alt="Typing subtitle"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="Followers"/>
-  </a>
-  <a href="https://gprm.itsvg.in/">
-    <img src="https://shields.io" alt="GPRM"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Mann5700&label=COSMIC%20VISITORS&color=8b5cf6&style=for-the-badge" alt="Profile views"/>
+  <a href="https://github.com/Mann5700?tab=followers"><img src="https://img.shields.io/github/followers/Mann5700?label=CREW%20MEMBERS&style=for-the-badge&color=f472b6&labelColor=0b1021&logo=github" alt="Followers"/></a>
+  <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/COMM--LINK-LinkedIn-22d3ee?style=for-the-badge&labelColor=0b1021&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
 </p>
 
-***
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-### 🧑‍🚀 Mission Log: About Me
+## 🛰️ &nbsp; Mission Log — About the Captain
 
-```text
-🛰️ Orbital Status: Navigating through open-source space
-🔭 Current Focus: Decoding complex data constellations
-🪐 Cosmic Goal: Building software that stands the test of light-years
+<table>
+<tr>
+<td width="56%" valign="top">
+
+```js
+const mann = {
+  role      : "Full-Stack Dev + UI/UX Designer",
+  homeport  : "New York Metro Sector, Earth 🌍",
+  alumnus   : "SWE Intern @ Apixio",
+  focus     : ["Machine Learning", "Distributed Systems", "Clean UX"],
+  fuel      : "coffee + curiosity ☕",
+  exploring : "deep-space data & generative models",
+  status    : "always shipping 🚀",
+};
 ```
 
-- 🌌 **Currently observing:** New frameworks and systemic optimizations
-- ☄️ **Ask me about:** Tech stacks, deep space photography, or quantum concepts
-- 🛸 **Voyage fleet:** Open to collaborate on astronomical or innovative software
+</td>
+<td width="44%" valign="top">
 
-***
+- 🔭 &nbsp;I taught a neural net to **hallucinate birdsong** from pure noise (yes, really — it's a GAN).
+- 🎨 &nbsp;I speak both dialects: **Figma wireframes** by morning, **Java internals** by night.
+- 🛰️ &nbsp;Ask me about **GANs, Java RMI, UI/UX**, or why Saturn has the best rings in the system.
+- 🤝 &nbsp;Open to collaborate on anything that fuses **creativity with code**.
+- ⚡ &nbsp;I'll happily lose a whole night to **deep-space astrophotography**. Zero regrets.
 
-### 🚀 Tech Constellation (Skills)
+</td>
+</tr>
+</table>
 
-<p align="left">
-  <!-- Languages & Tools with Cosmic/Dark Styled Shields Badges -->
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-</p>
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-***
+## 🪐 &nbsp; Tech Constellation
 
-### 📊 Galactic Telemetry (Stats)
+<div align="center">
 
-These dynamic cards use a deep "vision-of-the-night" color theme (`tokyonight` or `vision-friendly dark`) to blend seamlessly with space backdrops.
+**⟡ Core Languages ⟡**
+
+<img src="https://img.shields.io/badge/Java-0b1021?style=for-the-badge&logo=openjdk&logoColor=E76F00"/>
+<img src="https://img.shields.io/badge/Python-0b1021?style=for-the-badge&logo=python&logoColor=FFD43B"/>
+<img src="https://img.shields.io/badge/C++-0b1021?style=for-the-badge&logo=cplusplus&logoColor=00A5E4"/>
+<img src="https://img.shields.io/badge/JavaScript-0b1021?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/HTML5-0b1021?style=for-the-badge&logo=html5&logoColor=E34F26"/>
+<img src="https://img.shields.io/badge/CSS3-0b1021?style=for-the-badge&logo=css3&logoColor=1572B6"/>
+
+**⟡ Machine Learning & Data ⟡**
+
+<img src="https://img.shields.io/badge/TensorFlow-0b1021?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/>
+<img src="https://img.shields.io/badge/Keras-0b1021?style=for-the-badge&logo=keras&logoColor=D00000"/>
+<img src="https://img.shields.io/badge/NumPy-0b1021?style=for-the-badge&logo=numpy&logoColor=4DABCF"/>
+<img src="https://img.shields.io/badge/Pandas-0b1021?style=for-the-badge&logo=pandas&logoColor=ffffff"/>
+<img src="https://img.shields.io/badge/scikit--learn-0b1021?style=for-the-badge&logo=scikitlearn&logoColor=F7931E"/>
+<img src="https://img.shields.io/badge/Librosa-0b1021?style=for-the-badge&logo=soundcharts&logoColor=8b5cf6"/>
+
+**⟡ Design, Web & Orbital Tools ⟡**
+
+<img src="https://img.shields.io/badge/Figma-0b1021?style=for-the-badge&logo=figma&logoColor=F24E1E"/>
+<img src="https://img.shields.io/badge/React-0b1021?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-0b1021?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
+<img src="https://img.shields.io/badge/Git-0b1021?style=for-the-badge&logo=git&logoColor=F05032"/>
+<img src="https://img.shields.io/badge/IntelliJ%20IDEA-0b1021?style=for-the-badge&logo=intellijidea&logoColor=ffffff"/>
+<img src="https://img.shields.io/badge/VS%20Code-0b1021?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 📡 &nbsp; Galactic Telemetry
 
 <p align="center">
-  <img src="https://vercel.app" alt="GitHub Stats" width="48%" />
-  <img src="https://herokuapp.com" alt="GitHub Streak" width="48%" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Mann5700&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&rank_icon=percentile&title_color=a78bfa&icon_color=f472b6&text_color=c9d1d9&bg_color=0b1021" alt="GitHub stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=Mann5700&hide_border=true&background=0b1021&stroke=8b5cf6&ring=f472b6&fire=f472b6&currStreakLabel=a78bfa&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9&titleColor=a78bfa" alt="GitHub streak"/>
 </p>
 
 <p align="center">
-  <img src="https://vercel.app" alt="Top Languages" width="50%" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mann5700&layout=compact&langs_count=8&hide_border=true&title_color=a78bfa&text_color=c9d1d9&bg_color=0b1021" alt="Top languages"/>
 </p>
 
-***
-
-### ☄️ Planetary Systems (Featured Repositories)
-
-| Project | Cosmic Payload | Orbit Status |
-| :--- | :--- | :--- |
-| 🛸 **Project Nebula** | A deep space data pipeline simulation. | `Stable Orbit` |
-| 🛰️ **Astro-Bot** | Automated workflow bot looking for anomalies. | `Launching Soon` |
-
-***
-
-### 🌌 Deep Space Network (Connect with Me)
-
-<p align="left">
-  <a href="https://linkedin.com" target="blank"><img src="https://shields.io" alt="LinkedIn" /></a>
-  <a href="https://twitter.com" target="blank"><img src="https://shields.io" alt="Twitter" /></a>
-</p>
-
-<br />
-
-<!-- Profile views metric styled like an interplanetary dashboard odometer -->
 <p align="center">
-  <img src="https://komarev.com" alt="Profile Views" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mann5700&bg_color=0b1021&color=c9d1d9&line=f472b6&point=22d3ee&area=true&area_color=8b5cf6&hide_border=true&custom_title=Orbital%20Activity%20%E2%80%94%20Contribution%20Trajectory" alt="Activity graph"/>
 </p>
 
+<p align="center">
+  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=Mann5700&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies"/>
+</p>
 
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-<!--
-**Mann5700/Mann5700** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🌌 &nbsp; Transmission from Deep Space — NASA Picture of the Day
 
-Here are some ideas to get you started:
+<div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- APOD:START -->
+<h3 align="center">Psyche Receives Gravity Assist from Mars</h3>
+<p align="center"><sub>🗓️ 2026-07-29 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<p align="center">
+  <a href="https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3" target="_blank" rel="noopener">
+    <img src="https://img.youtube.com/vi/6_cH5-daLjg/0.jpg" width="62%" alt="Psyche Receives Gravity Assist from Mars"/>
+  </a>
+</p>
+<p align="center"><sub>Solar System bodies make deep space exploration more fuel efficient! Today’s video shows the Psyche spacecraft gaining speed and changing its trajectory with minimal fuel spent due to a gravity assist from Mars in May 2026. Mars has an average orbital speed of almost 87,000 km/h (54,000 mph) around…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
+<!-- APOD:END -->
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## ☄️ &nbsp; Planetary Systems — Featured Missions
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">🛰️ System</th>
+      <th align="left">Mission Briefing</th>
+      <th align="left">Payload</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Bird-Sound-Generator"><b>Bird-Sound-Generator</b></a></td>
+      <td>A GAN that dreams up brand-new birdsong out of pure random noise.</td>
+      <td><code>Python · Keras</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Distributed-Systems-using-RMI"><b>Distributed-Systems-using-RMI</b></a></td>
+      <td>Command a machine to sleep, wake, or reboot from across the network.</td>
+      <td><code>Java · RMI</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Avibra"><b>Avibra</b></a></td>
+      <td>Turning good habits into insurance — full UX + system design study.</td>
+      <td><code>Figma · Design</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Network-Delay"><b>Network-Delay</b></a></td>
+      <td>Charting the invisible lag between internet hosts with ping, MTR & iPerf.</td>
+      <td><code>Networks</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="center"><sub>🔭 Every repo now ships with its own diagrammed flight manual — pop the hood any time.</sub></div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 🚀 &nbsp; Deep Space Network — Establish Contact
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/LinkedIn-0b1021?style=for-the-badge&logo=linkedin&logoColor=22d3ee"/></a>
+  <a href="https://github.com/Mann5700"><img src="https://img.shields.io/badge/GitHub-0b1021?style=for-the-badge&logo=github&logoColor=ffffff"/></a>
+  <a href="https://github.com/Mann5700?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0b1021?style=for-the-badge&logo=git&logoColor=f472b6"/></a>
+</p>
+
+<details>
+  <summary>🐍 &nbsp;<b>Deploy the contribution snake</b> (watch it devour my commit constellation)</summary>
+  <br/>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/Mann5700/Mann5700/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation"/>
+  </p>
+  <sub>✨ Powered by a GitHub Action — the snake wakes up a minute or two after the workflow's first run.</sub>
+</details>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:f472b6&height=140&section=footer&text=Ad%20Astra%20%E2%80%94%20to%20the%20stars&fontSize=26&fontColor=ffffff&fontAlignY=72&desc=Thanks%20for%20drifting%20by%20the%20flight%20deck&descSize=15&descAlignY=90&animation=twinkling" width="100%" alt="footer"/>
+
+<div align="center"><sub>— Mann, transmitting from the New York metro sector 🛰️ &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
