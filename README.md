@@ -166,4 +166,4 @@ const mann = {
 
 <img src="./assets/cards/footer.svg" width="100%" alt="Ad Astra - to the stars"/>
 
-<div align="center"><sub> Mann, transmitting from the Big Apple! 🍎 &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
+<div align="center"><sub> Mann, transmitting from the Big Apple! 🍎 &nbsp;
