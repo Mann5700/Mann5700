@@ -1,7 +1,7 @@
 <!-- ═══════════════════════  MANN PATEL · Mann5700  ═══════════════════════ -->
 <!-- Handcrafted space-themed profile. The NASA panel below auto-refreshes daily. -->
 
-<img src="./assets/header.svg" width="100%" alt="Mann Patel — building clean software across the digital galaxy"/>
+<img src="./assets/header.svg" width="100%" alt="Mann Patel - building clean software across the digital galaxy"/>
 
 <p align="center">
   <img src="./assets/cards/typing.svg" width="720" alt="Full-Stack Developer + UI/UX Designer · Machine Learning · GANs · Distributed Systems"/>
@@ -85,7 +85,7 @@ const mann = {
 
 <p align="center">
   <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
-  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak — total, current and longest"/>
+  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak - total, current and longest"/>
 </p>
 
 <p align="center">
@@ -93,7 +93,7 @@ const mann = {
 </p>
 
 <p align="center">
-  <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Activity — contribution trajectory, last 30 days"/>
+  <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Activity - contribution trajectory, last 30 days"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ const mann = {
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## ☄️ &nbsp; Planetary Systems — Featured Missions
+## ☄️ &nbsp; Planetary Systems - Featured Missions
 
 <table>
   <thead>
@@ -125,7 +125,7 @@ const mann = {
     </tr>
     <tr>
       <td><a href="https://github.com/Mann5700/Avibra"><b>Avibra</b></a></td>
-      <td>Turning good habits into insurance — full UX + system design study.</td>
+      <td>Turning good habits into insurance - full UX + system design study.</td>
       <td><code>Figma · Design</code></td>
     </tr>
     <tr>
@@ -136,11 +136,11 @@ const mann = {
   </tbody>
 </table>
 
-<div align="center"><sub>🔭 Every repo now ships with its own diagrammed flight manual — pop the hood any time.</sub></div>
+<div align="center"><sub>🔭 Every repo now ships with its own diagrammed flight manual - pop the hood any time.</sub></div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## 🌌 &nbsp; Transmission from Deep Space — NASA Picture of the Day
+## 🌌 &nbsp; Transmission from Deep Space - NASA Picture of the Day
 
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
@@ -158,7 +158,7 @@ const mann = {
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## 🚀 &nbsp; Deep Space Network — Establish Contact
+## 🚀 &nbsp; Deep Space Network - Establish Contact
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/LinkedIn-0b1021?style=for-the-badge&logo=linkedin&logoColor=22d3ee"/></a>
@@ -168,6 +168,6 @@ const mann = {
 
 <br/>
 
-<img src="./assets/cards/footer.svg" width="100%" alt="Ad Astra — to the stars"/>
+<img src="./assets/cards/footer.svg" width="100%" alt="Ad Astra - to the stars"/>
 
-<div align="center"><sub>— Mann, transmitting from the Big Apple! 🍎 &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
+<div align="center"><sub>- Mann, transmitting from the Big Apple! 🍎 &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
