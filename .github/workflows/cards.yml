@@ -1,0 +1,53 @@
+name: 🛰️ Refresh Stat Cards
+
+# Regenerates the space-themed stat cards (stats / languages / trophy) straight
+# from the GitHub API and commits them as SVGs under assets/cards/. Because the
+# images live in this repo, they are served by GitHub itself — no third-party
+# service, no rate-limit 402s, and nothing for a corporate proxy to block.
+
+on:
+  schedule:
+    - cron: "37 5 * * *"   # daily refresh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/render_cards.py"
+      - ".github/workflows/cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stat-cards
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python .github/scripts/render_cards.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets/cards)" ]; then
+            git add assets/cards
+            git commit -m "🛰️ refresh stat cards"
+            git push
+          else
+            echo "Cards unchanged — nothing to commit."
+          fi

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="232" viewBox="0 0 360 232" fill="none" role="img">
+  <defs>
+    <linearGradient id="bgl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1021"/><stop offset="100%" stop-color="#0d0524"/>
+    </linearGradient>
+    <linearGradient id="strokel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="358" height="230" rx="14" fill="url(#bgl)" stroke="url(#strokel)" stroke-width="1.5"/>
+  <g><circle cx="318.3" cy="113.6" r="1.07" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.31s" begin="0.79s" repeatCount="indefinite"/></circle>
+  <circle cx="85.8" cy="18.8" r="0.55" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.72s" begin="2.87s" repeatCount="indefinite"/></circle>
+  <circle cx="334.8" cy="181.0" r="1.02" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.67s" begin="3.56s" repeatCount="indefinite"/></circle>
+  <circle cx="186.6" cy="35.5" r="0.66" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.66s" begin="3.68s" repeatCount="indefinite"/></circle>
+  <circle cx="258.2" cy="131.0" r="0.57" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.72s" begin="2.68s" repeatCount="indefinite"/></circle>
+  <circle cx="176.8" cy="71.1" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.92s" begin="2.23s" repeatCount="indefinite"/></circle>
+  <circle cx="58.2" cy="70.4" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.71s" begin="1.21s" repeatCount="indefinite"/></circle>
+  <circle cx="119.2" cy="99.9" r="0.54" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.73s" begin="1.3s" repeatCount="indefinite"/></circle>
+  <circle cx="176.1" cy="88.0" r="0.89" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.05s" begin="3.76s" repeatCount="indefinite"/></circle>
+  <circle cx="301.2" cy="199.4" r="1.12" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.77s" begin="0.61s" repeatCount="indefinite"/></circle>
+  <circle cx="8.7" cy="92.3" r="0.89" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.32s" begin="1.9s" repeatCount="indefinite"/></circle>
+  <circle cx="302.5" cy="54.3" r="0.91" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.99s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="172.0" cy="224.9" r="1.02" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.8s" begin="2.28s" repeatCount="indefinite"/></circle></g>
+  <path d="M31.0,28.0 L32.6,32.7 L37.7,32.8 L33.7,35.9 L35.1,40.7 L31.0,37.8 L26.9,40.7 L28.3,35.9 L24.3,32.8 L29.4,32.7 Z" fill="#f472b6"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></path><text x="46" y="40" font-family="Segoe UI, Verdana, sans-serif" font-size="17" font-weight="700" fill="#a78bfa" letter-spacing="1.5">MOST USED LANGUAGES</text><text x="46" y="56" font-family="Consolas, monospace" font-size="10.5" fill="#8b949e">primary language across public repos</text>
+  <clipPath id="barl"><rect x="24" y="64" width="312" height="13" rx="6.5"/></clipPath>
+  <g clip-path="url(#barl)">
+  <rect x="24" y="64" width="312" height="13" fill="#1b2340"/>
+  <rect x="24.0" y="64" width="208.0" height="13" fill="#b07219"/>
+  <rect x="232.0" y="64" width="52.0" height="13" fill="#f34b7d"/>
+  <rect x="284.0" y="64" width="52.0" height="13" fill="#DA5B0B"/>
+  </g>
+  <circle cx="30" cy="104" r="4" fill="#b07219"/>
+  <text x="44" y="108" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#c9d1d9">Java</text>
+  <text x="336" y="108" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#b07219">66.7%</text>
+  <circle cx="30" cy="125" r="4" fill="#f34b7d"/>
+  <text x="44" y="129" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#c9d1d9">C++</text>
+  <text x="336" y="129" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#f34b7d">16.7%</text>
+  <circle cx="30" cy="146" r="4" fill="#DA5B0B"/>
+  <text x="44" y="150" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#c9d1d9">Jupyter Notebook</text>
+  <text x="336" y="150" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#DA5B0B">16.7%</text>
+  </svg>

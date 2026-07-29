@@ -86,12 +86,12 @@ const mann = {
 ## 📡 &nbsp; Galactic Telemetry
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Mann5700&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&rank_icon=percentile&title_color=a78bfa&icon_color=f472b6&text_color=c9d1d9&bg_color=0b1021" alt="GitHub stats"/>
+  <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
   <img width="49%" src="https://streak-stats.demolab.com?user=Mann5700&hide_border=true&background=0b1021&stroke=8b5cf6&ring=f472b6&fire=f472b6&currStreakLabel=a78bfa&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9&titleColor=a78bfa" alt="GitHub streak"/>
 </p>
 
 <p align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mann5700&layout=compact&langs_count=8&hide_border=true&title_color=a78bfa&text_color=c9d1d9&bg_color=0b1021" alt="Top languages"/>
+  <img width="42%" src="./assets/cards/languages.svg" alt="Top languages"/>
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ const mann = {
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=Mann5700&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies"/>
+  <img width="98%" src="./assets/cards/trophy.svg" alt="Achievement tiles"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
