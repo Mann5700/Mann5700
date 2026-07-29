@@ -155,12 +155,12 @@ const mann = {
 ## 🚀 &nbsp; Deep Space Network - Establish Contact
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/LinkedIn-0b1021?style=for-the-badge&logo=linkedin&logoColor=22d3ee"/></a>
+ <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/COMM--LINK-LinkedIn-22d3ee?style=for-the-badge&labelColor=0b1021&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
   <a href="https://github.com/Mann5700"><img src="https://img.shields.io/badge/GitHub-0b1021?style=for-the-badge&logo=github&logoColor=ffffff"/></a>
   <a href="https://github.com/Mann5700?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0b1021?style=for-the-badge&logo=git&logoColor=f472b6"/></a>
     <img src="https://komarev.com/ghpvc/?username=Mann5700&label=COSMIC%20VISITORS&color=8b5cf6&style=for-the-badge" alt="Profile views"/>
   <a href="https://github.com/Mann5700?tab=followers"><img src="https://img.shields.io/github/followers/Mann5700?label=CREW%20MEMBERS&style=for-the-badge&color=f472b6&labelColor=0b1021&logo=github" alt="Followers"/></a>
-    <a href="https://www.linkedin.com/in/mann5700/"><img src="https://img.shields.io/badge/COMM--LINK-LinkedIn-22d3ee?style=for-the-badge&labelColor=0b1021&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
+    
 </p>
 <br/>
 
