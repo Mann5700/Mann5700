@@ -60,7 +60,7 @@
   <text x="523.0" y="100" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b949e" letter-spacing="0.5">FOLLOWERS</text>
   <rect x="602.0" y="16" width="134.0" height="100" rx="10" fill="#121a35" stroke="#a78bfa" stroke-opacity="0.35"/>
   <path d="M669.0,31.0 L671.1,37.1 L677.6,37.2 L672.4,41.1 L674.3,47.3 L669.0,43.6 L663.7,47.3 L665.6,41.1 L660.4,37.2 L666.9,37.1 Z" fill="#a78bfa"><animate attributeName="opacity" values="0.55;1;0.55" dur="4.6s" repeatCount="indefinite"/></path>
-  <text x="669.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">4</text>
+  <text x="669.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">5</text>
   <text x="669.0" y="100" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b949e" letter-spacing="0.5">LANGUAGES</text>
   <rect x="748.0" y="16" width="134.0" height="100" rx="10" fill="#121a35" stroke="#22d3ee" stroke-opacity="0.35"/>
   <path d="M815.0,31.0 L817.1,37.1 L823.6,37.2 L818.4,41.1 L820.3,47.3 L815.0,43.6 L809.7,47.3 L811.6,41.1 L806.4,37.2 L812.9,37.1 Z" fill="#22d3ee"><animate attributeName="opacity" values="0.55;1;0.55" dur="5.0s" repeatCount="indefinite"/></path>
