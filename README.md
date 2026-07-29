@@ -15,7 +15,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## 🛰️ &nbsp; Mission Log — About the Captain
+## 🛰️ &nbsp; Mission Log - About the Captain
 
 <table>
 <tr>
@@ -23,10 +23,10 @@
 
 ```js
 const mann = {
-  role      : "Full-Stack Dev + UI/UX Designer",
+  role      : "Full-Stack Dev + Astrophile 👽",
   homeport  : "New York Metro Sector, Earth 🌍",
-  alumnus   : "SWE Intern @ Apixio",
-  focus     : ["Machine Learning", "Distributed Systems", "Clean UX"],
+  alumnus   : "Software Engineer @ UPS ",
+  focus     : ["Agentic AI", "Clean UI/UX"],
   fuel      : "coffee + curiosity ☕",
   exploring : "deep-space data & generative models",
   status    : "always shipping 🚀",
@@ -36,9 +36,7 @@ const mann = {
 </td>
 <td width="44%" valign="top">
 
-- 🔭 &nbsp;I taught a neural net to **hallucinate birdsong** from pure noise (yes, really — it's a GAN).
-- 🎨 &nbsp;I speak both dialects: **Figma wireframes** by morning, **Java internals** by night.
-- 🛰️ &nbsp;Ask me about **GANs, Java RMI, UI/UX**, or why Saturn has the best rings in the system.
+- 🛰️ &nbsp;Ask me about **GANs, Agentic AI, UI/UX**, or why Saturn has the best rings in the system.
 - 🤝 &nbsp;Open to collaborate on anything that fuses **creativity with code**.
 - ⚡ &nbsp;I'll happily lose a whole night to **deep-space astrophotography**. Zero regrets.
 
@@ -104,24 +102,6 @@ const mann = {
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## 🌌 &nbsp; Transmission from Deep Space — NASA Picture of the Day
-
-<div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
-
-<!-- APOD:START -->
-<h3 align="center">Psyche Receives Gravity Assist from Mars</h3>
-<p align="center"><sub>🗓️ 2026-07-29 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
-<p align="center">
-  <a href="https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3" target="_blank" rel="noopener">
-    <img src="https://img.youtube.com/vi/6_cH5-daLjg/0.jpg" width="62%" alt="Psyche Receives Gravity Assist from Mars"/>
-  </a>
-</p>
-<p align="center"><sub>Solar System bodies make deep space exploration more fuel efficient! Today’s video shows the Psyche spacecraft gaining speed and changing its trajectory with minimal fuel spent due to a gravity assist from Mars in May 2026. Mars has an average orbital speed of almost 87,000 km/h (54,000 mph) around…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
-<!-- APOD:END -->
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
 ## ☄️ &nbsp; Planetary Systems — Featured Missions
 
 <table>
@@ -160,6 +140,24 @@ const mann = {
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
+## 🌌 &nbsp; Transmission from Deep Space — NASA Picture of the Day
+
+<div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
+
+<!-- APOD:START -->
+<h3 align="center">Psyche Receives Gravity Assist from Mars</h3>
+<p align="center"><sub>🗓️ 2026-07-29 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<p align="center">
+  <a href="https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3" target="_blank" rel="noopener">
+    <img src="https://img.youtube.com/vi/6_cH5-daLjg/0.jpg" width="62%" alt="Psyche Receives Gravity Assist from Mars"/>
+  </a>
+</p>
+<p align="center"><sub>Solar System bodies make deep space exploration more fuel efficient! Today’s video shows the Psyche spacecraft gaining speed and changing its trajectory with minimal fuel spent due to a gravity assist from Mars in May 2026. Mars has an average orbital speed of almost 87,000 km/h (54,000 mph) around…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
+<!-- APOD:END -->
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
 ## 🚀 &nbsp; Deep Space Network — Establish Contact
 
 <p align="center">
@@ -168,17 +166,8 @@ const mann = {
   <a href="https://github.com/Mann5700?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0b1021?style=for-the-badge&logo=git&logoColor=f472b6"/></a>
 </p>
 
-<details>
-  <summary>🐍 &nbsp;<b>Deploy the contribution snake</b> (watch it devour my commit constellation)</summary>
-  <br/>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/Mann5700/Mann5700/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation"/>
-  </p>
-  <sub>✨ Powered by a GitHub Action — the snake wakes up a minute or two after the workflow's first run.</sub>
-</details>
-
 <br/>
 
 <img src="./assets/cards/footer.svg" width="100%" alt="Ad Astra — to the stars"/>
 
-<div align="center"><sub>— Mann, transmitting from the New York metro sector 🛰️ &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
+<div align="center"><sub>— Mann, transmitting from the Big Apple! 🍎 &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
