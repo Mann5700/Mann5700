@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" fill="none" role="img">
+<defs><linearGradient id="fgf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/></linearGradient></defs>
+<rect width="1200" height="140" fill="#0b1021"/>
+<g><circle cx="1030.6" cy="18.5" r="0.42" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.29s" begin="1.28s" repeatCount="indefinite"/></circle>
+  <circle cx="225.7" cy="20.8" r="1.05" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.64s" begin="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="804.2" cy="9.6" r="0.5" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></circle>
+  <circle cx="209.7" cy="13.1" r="0.95" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.07s" begin="0.93s" repeatCount="indefinite"/></circle>
+  <circle cx="535.3" cy="33.4" r="0.67" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.09s" begin="0.67s" repeatCount="indefinite"/></circle>
+  <circle cx="405.4" cy="16.7" r="0.72" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.1s" begin="1.23s" repeatCount="indefinite"/></circle>
+  <circle cx="205.3" cy="24.0" r="0.79" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.43s" begin="3.24s" repeatCount="indefinite"/></circle>
+  <circle cx="865.6" cy="20.3" r="0.53" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.91s" begin="3.64s" repeatCount="indefinite"/></circle>
+  <circle cx="576.9" cy="33.6" r="1.11" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.24s" begin="3.31s" repeatCount="indefinite"/></circle>
+  <circle cx="797.1" cy="20.0" r="0.58" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.83s" begin="2.48s" repeatCount="indefinite"/></circle>
+  <circle cx="498.9" cy="32.0" r="0.58" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.89s" begin="2.86s" repeatCount="indefinite"/></circle>
+  <circle cx="634.1" cy="8.5" r="0.65" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.4s" begin="2.14s" repeatCount="indefinite"/></circle>
+  <circle cx="126.3" cy="6.3" r="0.42" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.75s" begin="2.39s" repeatCount="indefinite"/></circle>
+  <circle cx="691.9" cy="29.8" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.49s" begin="1.95s" repeatCount="indefinite"/></circle>
+  <circle cx="264.1" cy="18.7" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.45s" begin="3.32s" repeatCount="indefinite"/></circle>
+  <circle cx="959.9" cy="35.6" r="0.8" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.26s" begin="0.45s" repeatCount="indefinite"/></circle>
+  <circle cx="581.6" cy="34.7" r="0.58" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.25s" begin="1.19s" repeatCount="indefinite"/></circle>
+  <circle cx="638.2" cy="26.8" r="1.09" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.27s" begin="3.64s" repeatCount="indefinite"/></circle>
+  <circle cx="1023.5" cy="7.5" r="0.77" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.78s" begin="1.29s" repeatCount="indefinite"/></circle>
+  <circle cx="966.7" cy="15.4" r="0.56" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.48s" begin="3.57s" repeatCount="indefinite"/></circle>
+  <circle cx="738.4" cy="33.1" r="1.19" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.89s" begin="3.87s" repeatCount="indefinite"/></circle>
+  <circle cx="119.7" cy="26.0" r="0.94" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.82s" begin="0.55s" repeatCount="indefinite"/></circle></g>
+<path fill="url(#fgf)" fill-opacity="0.92" d="M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z"><animate attributeName="d" values="M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z;M0,42 C200,72 400,12 600,42 C800,72 1000,12 1200,42 L1200,140 L0,140 Z;M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z" dur="6s" repeatCount="indefinite"/></path>
+<text x="600" y="98" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="800" fill="#ffffff">Ad Astra — to the stars</text>
+<text x="600" y="122" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#eef1ff" fill-opacity="0.85">Thanks for drifting by the flight deck</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="195" viewBox="0 0 480 195" fill="none" role="img">
+  <defs>
+    <linearGradient id="bgk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1021"/><stop offset="100%" stop-color="#0d0524"/>
+    </linearGradient>
+    <linearGradient id="strokek" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="478" height="193" rx="14" fill="url(#bgk)" stroke="url(#strokek)" stroke-width="1.5"/>
+  <g><circle cx="22.8" cy="95.8" r="0.81" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.97s" begin="3.51s" repeatCount="indefinite"/></circle>
+  <circle cx="440.4" cy="38.4" r="1.05" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.55s" begin="3.38s" repeatCount="indefinite"/></circle>
+  <circle cx="261.3" cy="32.2" r="0.84" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.91s" begin="1.62s" repeatCount="indefinite"/></circle>
+  <circle cx="235.2" cy="14.1" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.69s" begin="0.17s" repeatCount="indefinite"/></circle>
+  <circle cx="175.6" cy="17.7" r="1.08" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.91s" begin="1.88s" repeatCount="indefinite"/></circle>
+  <circle cx="457.7" cy="115.5" r="1.13" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.97s" begin="0.35s" repeatCount="indefinite"/></circle>
+  <circle cx="424.9" cy="106.7" r="0.84" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.77s" begin="1.04s" repeatCount="indefinite"/></circle>
+  <circle cx="54.0" cy="64.0" r="1.13" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.6s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="389.3" cy="88.1" r="0.75" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.21s" begin="2.34s" repeatCount="indefinite"/></circle>
+  <circle cx="471.1" cy="177.9" r="0.91" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.67s" begin="0.57s" repeatCount="indefinite"/></circle>
+  <circle cx="244.8" cy="144.5" r="1.13" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.67s" begin="1.21s" repeatCount="indefinite"/></circle>
+  <circle cx="114.0" cy="143.4" r="1.09" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.55s" begin="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="217.9" cy="36.9" r="1.02" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.98s" begin="0.11s" repeatCount="indefinite"/></circle>
+  <circle cx="150.5" cy="73.8" r="1.07" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.58s" begin="1.61s" repeatCount="indefinite"/></circle>
+  <circle cx="103.9" cy="152.1" r="1.19" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.85s" begin="2.49s" repeatCount="indefinite"/></circle>
+  <circle cx="93.4" cy="114.3" r="0.83" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.61s" begin="0.49s" repeatCount="indefinite"/></circle>
+  <circle cx="306.9" cy="83.2" r="0.72" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="4.96s" begin="0.46s" repeatCount="indefinite"/></circle>
+  <circle cx="472.9" cy="56.5" r="1.09" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.07s" begin="2.33s" repeatCount="indefinite"/></circle></g>
+  <line x1="160" y1="34" x2="160" y2="161" stroke="#8b949e" stroke-opacity="0.18"/>
+  <line x1="320" y1="34" x2="320" y2="161" stroke="#8b949e" stroke-opacity="0.18"/>
+  <text x="240" y="98" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Syncing streaks — awaiting first Action run…</text>
+  </svg>

@@ -1,13 +1,15 @@
 name: 🛰️ Refresh Stat Cards
 
-# Regenerates the space-themed stat cards (stats / languages / trophy) straight
-# from the GitHub API and commits them as SVGs under assets/cards/. Because the
-# images live in this repo, they are served by GitHub itself — no third-party
-# service, no rate-limit 402s, and nothing for a corporate proxy to block.
+# Regenerates the space-themed stat cards straight from the GitHub API (REST for
+# stats/languages, GraphQL for the contribution streak & activity) and commits
+# them as SVGs under assets/cards/. Cards: stats, languages, trophy, streak,
+# activity, typing, footer. Because the images live in this repo they are served
+# by GitHub itself — no third-party service, no rate-limit 402s, and nothing for
+# a corporate proxy to block.
 
 on:
   schedule:
-    - cron: "37 5 * * *"   # daily refresh
+    - cron: "37 */6 * * *"   # every 6 hours — keeps stats, streak & activity current
   workflow_dispatch:
   push:
     branches: [main]

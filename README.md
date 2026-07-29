@@ -4,7 +4,7 @@
 <img src="./assets/header.svg" width="100%" alt="Mann Patel — building clean software across the digital galaxy"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=720&height=45&lines=Full-Stack+Developer+%2B+UI%2FUX+Designer;Machine+Learning+%E2%80%A2+GANs+%E2%80%A2+Distributed+Systems;Exploring+the+universe%2C+one+commit+at+a+time;Space+enthusiast+who+codes+among+the+stars" alt="Typing subtitle"/>
+  <img src="./assets/cards/typing.svg" width="720" alt="Full-Stack Developer + UI/UX Designer · Machine Learning · GANs · Distributed Systems"/>
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ const mann = {
 
 <p align="center">
   <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=Mann5700&hide_border=true&background=0b1021&stroke=8b5cf6&ring=f472b6&fire=f472b6&currStreakLabel=a78bfa&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9&titleColor=a78bfa" alt="GitHub streak"/>
+  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak — total, current and longest"/>
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ const mann = {
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mann5700&bg_color=0b1021&color=c9d1d9&line=f472b6&point=22d3ee&area=true&area_color=8b5cf6&hide_border=true&custom_title=Orbital%20Activity%20%E2%80%94%20Contribution%20Trajectory" alt="Activity graph"/>
+  <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Activity — contribution trajectory, last 30 days"/>
 </p>
 
 <p align="center">
@@ -179,6 +179,6 @@ const mann = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:f472b6&height=140&section=footer&text=Ad%20Astra%20%E2%80%94%20to%20the%20stars&fontSize=26&fontColor=ffffff&fontAlignY=72&desc=Thanks%20for%20drifting%20by%20the%20flight%20deck&descSize=15&descAlignY=90&animation=twinkling" width="100%" alt="footer"/>
+<img src="./assets/cards/footer.svg" width="100%" alt="Ad Astra — to the stars"/>
 
 <div align="center"><sub>— Mann, transmitting from the New York metro sector 🛰️ &nbsp;·&nbsp; <i>keep looking up.</i></sub></div>
