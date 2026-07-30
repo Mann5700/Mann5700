@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Psyche Receives Gravity Assist from Mars</h3>
-<p align="center"><sub>🗓️ 2026-07-29 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">Red Sun through Wildfire Smoke</h3>
+<p align="center"><sub>🗓️ 2026-07-30 &nbsp;·&nbsp; 📷 Debra Ceravolo  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=6_cH5-daLjg" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/apod/thumb.svg" width="62%" alt="Psyche Receives Gravity Assist from Mars"/>
+  <a href="https://apod.nasa.gov/apod/image/2607/red_sun.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2607/red_sun.jpg" width="62%" alt="Red Sun through Wildfire Smoke"/>
   </a>
 </p>
-<p align="center"><sub>Solar System bodies make deep space exploration more fuel efficient! Today’s video shows the Psyche spacecraft gaining speed and changing its trajectory with minimal fuel spent due to a gravity assist from Mars in May 2026. Mars has an average orbital speed of almost 87,000 km/h (54,000 mph) around…</sub></p>
+<p align="center"><sub>This could be the view from an exoplanet orbiting around a red dwarf star, but it is our own Sun.   This image was taken on July 22, 2026, in the Okanagan region in the Canadian province of British Columbia.   Wildfire smoke from the Pacific Northwest acted as a solar filter, allowing the…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
