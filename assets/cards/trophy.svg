@@ -44,7 +44,7 @@
   <circle cx="506.6" cy="37.3" r="0.79" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.38s" begin="3.89s" repeatCount="indefinite"/></circle></g>
   <rect x="18.0" y="16" width="134.0" height="100" rx="10" fill="#121a35" stroke="#a78bfa" stroke-opacity="0.35"/>
   <path d="M85.0,31.0 L87.1,37.1 L93.6,37.2 L88.4,41.1 L90.3,47.3 L85.0,43.6 L79.7,47.3 L81.6,41.1 L76.4,37.2 L82.9,37.1 Z" fill="#a78bfa"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.0s" repeatCount="indefinite"/></path>
-  <text x="85.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">11</text>
+  <text x="85.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">12</text>
   <text x="85.0" y="100" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b949e" letter-spacing="0.5">PUBLIC REPOS</text>
   <rect x="164.0" y="16" width="134.0" height="100" rx="10" fill="#121a35" stroke="#f472b6" stroke-opacity="0.35"/>
   <path d="M231.0,31.0 L233.1,37.1 L239.6,37.2 L234.4,41.1 L236.3,47.3 L231.0,43.6 L225.7,47.3 L227.6,41.1 L222.4,37.2 L228.9,37.1 Z" fill="#f472b6"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/></path>
