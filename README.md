@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Red Sun through Wildfire Smoke</h3>
-<p align="center"><sub>🗓️ 2026-07-30 &nbsp;·&nbsp; 📷 Debra Ceravolo  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">NGC 4372 and the Dark Doodad</h3>
+<p align="center"><sub>🗓️ 2026-07-31 &nbsp;·&nbsp; 📷 Alessandro Cipolat Bares</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2607/red_sun.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2607/red_sun.jpg" width="62%" alt="Red Sun through Wildfire Smoke"/>
+  <a href="https://apod.nasa.gov/apod/image/2607/DARK-DOODAD_2048.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2607/DARK-DOODAD_2048.jpg" width="62%" alt="NGC 4372 and the Dark Doodad"/>
   </a>
 </p>
-<p align="center"><sub>This could be the view from an exoplanet orbiting around a red dwarf star, but it is our own Sun.   This image was taken on July 22, 2026, in the Okanagan region in the Canadian province of British Columbia.   Wildfire smoke from the Pacific Northwest acted as a solar filter, allowing the…</sub></p>
+<p align="center"><sub>The Dark Doodad Nebula drifts through southern skies, a tantalizing target for binoculars toward the small constellation Musca, The Fly. A dusty interstellar cloud, it's seen against rich starfields just south of the Coalsack Nebula and the Southern Cross. Stretching for about 3 degrees across this…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
