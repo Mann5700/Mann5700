@@ -13,7 +13,7 @@
 
 <table>
 <tr>
-<td width="56%" valign="top">
+<td width="50%" valign="top">
 
 ```js
 const mann = {
@@ -28,7 +28,7 @@ const mann = {
 ```
 
 </td>
-<td width="44%" valign="top">
+<td width="50%" valign="top">
 
 - 🛰️ &nbsp;Ask me about **GANs, Agentic AI, UI/UX**, or why Saturn has the best rings in the system.
 - 🤝 &nbsp;Open to collaborate on anything that fuses **creativity with code**.
