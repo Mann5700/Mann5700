@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">NGC 4372 and the Dark Doodad</h3>
-<p align="center"><sub>🗓️ 2026-07-31 &nbsp;·&nbsp; 📷 Alessandro Cipolat Bares</sub></p>
+<h3 align="center">Buck Moon and Belt of Venus</h3>
+<p align="center"><sub>🗓️ 2026-08-01 &nbsp;·&nbsp; 📷 Branko Nadj</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2607/DARK-DOODAD_2048.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2607/DARK-DOODAD_2048.jpg" width="62%" alt="NGC 4372 and the Dark Doodad"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg" width="62%" alt="Buck Moon and Belt of Venus"/>
   </a>
 </p>
-<p align="center"><sub>The Dark Doodad Nebula drifts through southern skies, a tantalizing target for binoculars toward the small constellation Musca, The Fly. A dusty interstellar cloud, it's seen against rich starfields just south of the Coalsack Nebula and the Southern Cross. Stretching for about 3 degrees across this…</sub></p>
+<p align="center"><sub>The Buck Moon is a traditional name for the full moon of July. In this colorful Adriatic sea and skyscape captured on July 28 from Krk Island along the coast of Croatia, a full Buck Moon is just rising over distant mountains. Since a full moon rises as the Sun sets, Earth's shadow also rises in the…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
