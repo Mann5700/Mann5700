@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Buck Moon and Belt of Venus</h3>
-<p align="center"><sub>🗓️ 2026-08-01 &nbsp;·&nbsp; 📷 Branko Nadj</sub></p>
+<h3 align="center">A Fire Rainbow over West Virginia</h3>
+<p align="center"><sub>🗓️ 2026-08-02 &nbsp;·&nbsp; 📷 Christa Harbig</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg" width="62%" alt="Buck Moon and Belt of Venus"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg" width="62%" alt="A Fire Rainbow over West Virginia"/>
   </a>
 </p>
-<p align="center"><sub>The Buck Moon is a traditional name for the full moon of July. In this colorful Adriatic sea and skyscape captured on July 28 from Krk Island along the coast of Croatia, a full Buck Moon is just rising over distant mountains. Since a full moon rises as the Sun sets, Earth's shadow also rises in the…</sub></p>
+<p align="center"><sub>What's happening to this cloud? Ice crystals in a distant cirrus cloud are acting like little floating prisms.  Known informally as a fire rainbow for its flame-like appearance, a circumhorizon arc appears parallel to the horizon. For a circumhorizontal arc to be visible, the Sun must be at least…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
