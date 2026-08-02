@@ -33,9 +33,9 @@
   <text x="82" y="166" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#8b949e">Oct 11, 2022</text>
   <circle cx="240" cy="76" r="45" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="7"/>
   <circle cx="240" cy="76" r="45" fill="none" stroke="url(#strokek)" stroke-width="7" stroke-linecap="round" stroke-dasharray="282.7" stroke-dashoffset="282.7" transform="rotate(-90 240 76)"><animate attributeName="stroke-dashoffset" from="282.7" to="0" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/></circle>
-  <text x="240" y="79" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#a78bfa">3</text>
+  <text x="240" y="79" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#a78bfa">0</text>
   <text x="240" y="150" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#a78bfa" letter-spacing="0.8">CURRENT STREAK</text>
-  <text x="240" y="166" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#8b949e">Jul 29, 2026 → now</text>
+  <text x="240" y="166" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#8b949e">—</text>
   <text x="398" y="86" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="33" font-weight="800" fill="#c9d1d9">3</text>
   <text x="398" y="150" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#22d3ee" letter-spacing="0.8">LONGEST STREAK</text>
   <text x="398" y="166" text-anchor="middle" font-family="Consolas, monospace" font-size="7.5" fill="#8b949e">Feb 04, 2024 → Feb 06, 2024</text>
