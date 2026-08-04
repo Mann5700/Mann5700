@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Fire Rainbow over West Virginia</h3>
-<p align="center"><sub>🗓️ 2026-08-02 &nbsp;·&nbsp; 📷 Christa Harbig</sub></p>
+<h3 align="center">Curious Cometary Knots in the Helix Nebula</h3>
+<p align="center"><sub>🗓️ 2026-08-04</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg" width="62%" alt="A Fire Rainbow over West Virginia"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" width="62%" alt="Curious Cometary Knots in the Helix Nebula"/>
   </a>
 </p>
-<p align="center"><sub>What's happening to this cloud? Ice crystals in a distant cirrus cloud are acting like little floating prisms.  Known informally as a fire rainbow for its flame-like appearance, a circumhorizon arc appears parallel to the horizon. For a circumhorizontal arc to be visible, the Sun must be at least…</sub></p>
+<p align="center"><sub>What causes unusual knots of gas and dust in planetary nebulas?  Seen also in the Ring Nebula, the Dumbbell Nebula and NGC 2392, the knots' existence was not initially predicted, and their origins are still not well understood.  Pictured here is a fascinating image of part of the Helix Nebula by…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
