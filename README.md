@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Curious Cometary Knots in the Helix Nebula</h3>
-<p align="center"><sub>🗓️ 2026-08-04</sub></p>
+<h3 align="center">Spokes on Saturn's B Ring</h3>
+<p align="center"><sub>🗓️ 2026-08-05 &nbsp;·&nbsp; 📷 Brad Croslin  Text: Keighley Rockcliffe   (NASA GSFC,  UMBC CSST,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" width="62%" alt="Curious Cometary Knots in the Helix Nebula"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif" width="62%" alt="Spokes on Saturn's B Ring"/>
   </a>
 </p>
-<p align="center"><sub>What causes unusual knots of gas and dust in planetary nebulas?  Seen also in the Ring Nebula, the Dumbbell Nebula and NGC 2392, the knots' existence was not initially predicted, and their origins are still not well understood.  Pictured here is a fascinating image of part of the Helix Nebula by…</sub></p>
+<p align="center"><sub>Don’t get spooked by Saturn’s ghostly spokes! Today we feature a nearly two-hour timelapse of Saturn and its rings looping forwards and backwards. A day on Saturn is only 10 hours long, so two hours of observation covers quite a bit of its rotation. If you look closely, a ghoulish shadow appears…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
