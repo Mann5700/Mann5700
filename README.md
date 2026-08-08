@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">New Sharpest Image of the Sun Uncovers Instability</h3>
-<p align="center"><sub>🗓️ 2026-08-06</sub></p>
+<h3 align="center">A Messier Moment for Tempel 2</h3>
+<p align="center"><sub>🗓️ 2026-08-08 &nbsp;·&nbsp; 📷 Dan Bartlett</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg" width="62%" alt="New Sharpest Image of the Sun Uncovers Instability"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" width="62%" alt="A Messier Moment for Tempel 2"/>
   </a>
 </p>
-<p align="center"><sub>What does the new sharpest image of our Sun show? Instability. To be clear, a certain kind of interactive process called the Kelvin-Helmholtz instability (KHI). This instability can create waves and swirls when two streams flow past each other -- in this case variable streams of solar magnetic…</sub></p>
+<p align="center"><sub>Which of these is not a comet? You guessed it - the one on the right is a globular star cluster. The diffuse greenish coma of periodic comet 10P/Tempel 2 is at left in the frame. In fact the globular star cluster is Messier 30, also known as M30, or the 30th entry in astronomer Charles Messier's…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
