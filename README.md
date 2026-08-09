@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Messier Moment for Tempel 2</h3>
-<p align="center"><sub>🗓️ 2026-08-08 &nbsp;·&nbsp; 📷 Dan Bartlett</sub></p>
+<h3 align="center">Contemplating the Sun</h3>
+<p align="center"><sub>🗓️ 2026-08-09 &nbsp;·&nbsp; 📷 Steven Gilbert</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" width="62%" alt="A Messier Moment for Tempel 2"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/sunsilhouettes_gilbert_1024.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/sunsilhouettes_gilbert_1024.jpg" width="62%" alt="Contemplating the Sun"/>
   </a>
 </p>
-<p align="center"><sub>Which of these is not a comet? You guessed it - the one on the right is a globular star cluster. The diffuse greenish coma of periodic comet 10P/Tempel 2 is at left in the frame. In fact the globular star cluster is Messier 30, also known as M30, or the 30th entry in astronomer Charles Messier's…</sub></p>
+<p align="center"><sub>Have you contemplated your home star recently?  Featured here, a Sun partially eclipsed on the top left by the Moon is also seen eclipsed by earthlings contemplating the eclipse below.  This spectacular menagerie of silhouettes was taken in 2012 from the Glen Canyon National Recreation Area near…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
