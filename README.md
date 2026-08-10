@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Contemplating the Sun</h3>
-<p align="center"><sub>🗓️ 2026-08-09 &nbsp;·&nbsp; 📷 Steven Gilbert</sub></p>
+<h3 align="center">Three Galaxy Pairs</h3>
+<p align="center"><sub>🗓️ 2026-08-10 &nbsp;·&nbsp; 📷 Rafael Sampaio</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/sunsilhouettes_gilbert_1024.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/sunsilhouettes_gilbert_1024.jpg" width="62%" alt="Contemplating the Sun"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg" width="62%" alt="Three Galaxy Pairs"/>
   </a>
 </p>
-<p align="center"><sub>Have you contemplated your home star recently?  Featured here, a Sun partially eclipsed on the top left by the Moon is also seen eclipsed by earthlings contemplating the eclipse below.  This spectacular menagerie of silhouettes was taken in 2012 from the Glen Canyon National Recreation Area near…</sub></p>
+<p align="center"><sub>ch of these pairs of galaxies is different.  The two galaxies at the top are likely not interacting, at least presently.  However, the top galaxy with the blue stripe, NGC 4650A, is a polar ring galaxy and may be the result of a past galaxy collision. The two galaxies in the middle of the featured…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
