@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Three Galaxy Pairs</h3>
-<p align="center"><sub>🗓️ 2026-08-10 &nbsp;·&nbsp; 📷 Rafael Sampaio</sub></p>
+<h3 align="center">Six Moons of Saturn</h3>
+<p align="center"><sub>🗓️ 2026-08-11 &nbsp;·&nbsp; 📷 Alexandre Trentini</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg" width="62%" alt="Three Galaxy Pairs"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg" width="62%" alt="Six Moons of Saturn"/>
   </a>
 </p>
-<p align="center"><sub>ch of these pairs of galaxies is different.  The two galaxies at the top are likely not interacting, at least presently.  However, the top galaxy with the blue stripe, NGC 4650A, is a polar ring galaxy and may be the result of a past galaxy collision. The two galaxies in the middle of the featured…</sub></p>
+<p align="center"><sub>How many moons does Saturn have? While the total will likely continue to grow, as of June 2026 the ringed gas giant had 293 confirmed moons. That's easily more than any other planet of the Solar System, including ruling gas giant Jupiter with a mere 115 confirmed moons. Most of Saturn's known moons…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
