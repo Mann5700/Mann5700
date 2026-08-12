@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Six Moons of Saturn</h3>
-<p align="center"><sub>🗓️ 2026-08-11 &nbsp;·&nbsp; 📷 Alexandre Trentini</sub></p>
+<h3 align="center">Perseids Over a little Planet</h3>
+<p align="center"><sub>🗓️ 2026-08-12 &nbsp;·&nbsp; 📷 Marcin Rosadziński  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg" width="62%" alt="Six Moons of Saturn"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/A_Planet_of_Meteors.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/A_Planet_of_Meteors.jpg" width="62%" alt="Perseids Over a little Planet"/>
   </a>
 </p>
-<p align="center"><sub>How many moons does Saturn have? While the total will likely continue to grow, as of June 2026 the ringed gas giant had 293 confirmed moons. That's easily more than any other planet of the Solar System, including ruling gas giant Jupiter with a mere 115 confirmed moons. Most of Saturn's known moons…</sub></p>
+<p align="center"><sub>It looks like a view from the Little Prince's planet.   The featured image is a throwback to the 2024 Perseid meteor shower, surrounded in this projection by the Bieszczady Mountains in Poland.   Visible in the sky is the arch of the Milky Way, along with several nebulas in red and over a hundred…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
