@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Perseids Over a little Planet</h3>
-<p align="center"><sub>🗓️ 2026-08-12 &nbsp;·&nbsp; 📷 Marcin Rosadziński  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">Total Solar Eclipse Over Spain</h3>
+<p align="center"><sub>🗓️ 2026-08-13 &nbsp;·&nbsp; 📷 Ruiyu Zhang  Text: Keighley Rockcliffe   (NASA GSFC,  UMBC CSST,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/A_Planet_of_Meteors.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/A_Planet_of_Meteors.jpg" width="62%" alt="Perseids Over a little Planet"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg" width="62%" alt="Total Solar Eclipse Over Spain"/>
   </a>
 </p>
-<p align="center"><sub>It looks like a view from the Little Prince's planet.   The featured image is a throwback to the 2024 Perseid meteor shower, surrounded in this projection by the Bieszczady Mountains in Poland.   Visible in the sky is the arch of the Milky Way, along with several nebulas in red and over a hundred…</sub></p>
+<p align="center"><sub>On August 12th, 2026, the Moon totally eclipsed the Sun and cast its shadow across Siberia, Greenland, Iceland, Spain, and Portugal. Today’s image features two total solar eclipses viewed from Zaragoza, Spain, one over the Cathedral-Basilica of Our Lady of the Pillar and the other reflecting in the…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
