@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Total Solar Eclipse Over Spain</h3>
-<p align="center"><sub>🗓️ 2026-08-13 &nbsp;·&nbsp; 📷 Ruiyu Zhang  Text: Keighley Rockcliffe   (NASA GSFC,  UMBC CSST,  CRESST II)</sub></p>
+<h3 align="center">Total Solar Eclipse from Greenland</h3>
+<p align="center"><sub>🗓️ 2026-08-14 &nbsp;·&nbsp; 📷 On August 12</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg" width="62%" alt="Total Solar Eclipse Over Spain"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg" width="62%" alt="Total Solar Eclipse from Greenland"/>
   </a>
 </p>
-<p align="center"><sub>On August 12th, 2026, the Moon totally eclipsed the Sun and cast its shadow across Siberia, Greenland, Iceland, Spain, and Portugal. Today’s image features two total solar eclipses viewed from Zaragoza, Spain, one over the Cathedral-Basilica of Our Lady of the Pillar and the other reflecting in the…</sub></p>
+<p align="center"><sub>On August 12, the Moon's shadow reached out to touch our fair planet. Beginning in the Arctic Ocean, it swept along a narrow track that led the dark lunar umbra across parts of Greenland, Iceland, the Atlantic, Portugal, and northern Spain. And for a moment, denizens of Earth who found themselves…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
