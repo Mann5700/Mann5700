@@ -139,14 +139,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Total Solar Eclipse from Greenland</h3>
-<p align="center"><sub>🗓️ 2026-08-14 &nbsp;·&nbsp; 📷 On August 12</sub></p>
+<h3 align="center">Bright Perseids from Sweden</h3>
+<p align="center"><sub>🗓️ 2026-08-15 &nbsp;·&nbsp; 📷 Clear Skies</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg" width="62%" alt="Total Solar Eclipse from Greenland"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/PerseidsAPOD_P-MHeden.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/PerseidsAPOD_P-MHeden.jpg" width="62%" alt="Bright Perseids from Sweden"/>
   </a>
 </p>
-<p align="center"><sub>On August 12, the Moon's shadow reached out to touch our fair planet. Beginning in the Arctic Ocean, it swept along a narrow track that led the dark lunar umbra across parts of Greenland, Iceland, the Atlantic, Portugal, and northern Spain. And for a moment, denizens of Earth who found themselves…</sub></p>
+<p align="center"><sub>Known for its bright and fast meteors, the annual Perseid Meteor Shower comes to planet Earth's skies from a radiant in the heroic constellation Perseus. The popular northern summer celestial spectacle is created as grains of dust cast off along the orbit of periodic comet 109P/Swift-Tuttle…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
