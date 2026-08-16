@@ -525,11 +525,12 @@ def render_typing():
             _kf(kt, vals, t, v)
         _kf(kt, vals, 1, 0)
         kts = ";".join(f"{v:.4f}" for v in kt)
-        wvals = ";".join(f"{v:.1f}" for v in vals)
+        # slack on the fully-typed frame: the last glyph's ink can overhang its advance width
+        wvals = ";".join(f"{(v + cw if v >= pw - 1e-6 else v):.1f}" for v in vals)
         parts.append(
             f'<svg x="{x0:.1f}" y="0" width="0" height="{h}" overflow="hidden">'
             f'<text x="0" y="{baseline}" font-family="{font}" font-size="{fs}" font-weight="600" '
-            f'textLength="{pw:.1f}" lengthAdjust="spacingAndGlyphs" '
+            f'textLength="{pw:.1f}" lengthAdjust="spacing" '
             f'fill="url(#tg{uid})">{esc(text)}</text>'
             f'<animate attributeName="width" values="{wvals}" keyTimes="{kts}" '
             f'calcMode="discrete" dur="{cycle}s" repeatCount="indefinite"/></svg>'
