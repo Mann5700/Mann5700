@@ -33,6 +33,7 @@ const mann = {
 - 🛰️ &nbsp;Ask me about **GANs, Agentic AI, UI/UX**, or why Saturn has the best rings in the system.
 - 🤝 &nbsp;Open to collaborate on anything that fuses **creativity with code**.
 - ⚡ &nbsp;I'll happily lose a whole night to **deep-space astrophotography**. Zero regrets.
+- 🌌 &nbsp;Chasing the same thing in **code and in the night sky** - signal in the noise.
 
 </td>
 </tr>
