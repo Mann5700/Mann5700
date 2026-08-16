@@ -98,34 +98,34 @@ const mann = {
 
 ## ☄️ &nbsp; Planetary Systems - Featured Missions
 
-<table>
+<table width="100%">
   <thead>
     <tr>
-      <th align="left">🛰️ System</th>
-      <th align="left">Mission Briefing</th>
-      <th align="left">Payload</th>
+      <th align="left" width="23%">🛰️ System</th>
+      <th align="left" width="52%">Mission Briefing</th>
+      <th align="left" width="25%">Payload</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://github.com/Mann5700/ReqBridge-AI-Requirements-Intelligence-Engine"><b>ReqBridge</b></a></td>
-      <td>Turns messy requirement docs into prioritized, conflict-checked Azure DevOps work items via a 9-agent LangGraph pipeline - REST, SPA & MCP surfaces.</td>
-      <td><code>Python · FastAPI · LangGraph · MCP · React</code></td>
+      <td>Requirement docs → prioritized, conflict-checked Azure DevOps work items.</td>
+      <td><sub><code>Python&nbsp;·&nbsp;FastAPI&nbsp;·&nbsp;LangGraph&nbsp;·&nbsp;MCP&nbsp;·&nbsp;React</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/Job-Application-Resume-CoPilot"><b>Job-Application-Resume-CoPilot</b></a></td>
-      <td>Finds H-1B cap-exempt roles, scores ATS fit, and generates tailored, ATS-optimized PDF resumes.</td>
-      <td><code>Python · FastAPI · React · TS · Tailwind</code></td>
+      <td><a href="https://github.com/Mann5700/Job-Application-Resume-CoPilot"><b>Resume&#8209;CoPilot</b></a></td>
+      <td>Finds cap-exempt roles, scores ATS fit, writes tailored PDF resumes.</td>
+      <td><sub><code>Python&nbsp;·&nbsp;FastAPI&nbsp;·&nbsp;React&nbsp;·&nbsp;Tailwind</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/Bird-Sound-Generator"><b>Bird-Sound-Generator</b></a></td>
+      <td><a href="https://github.com/Mann5700/Bird-Sound-Generator"><b>Bird&#8209;Sound&#8209;Generator</b></a></td>
       <td>A GAN that dreams up brand-new birdsong out of pure random noise.</td>
-      <td><code>Python · Keras</code></td>
+      <td><sub><code>Python&nbsp;·&nbsp;Keras</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My-Finance-Tracker</b></a></td>
-      <td>Full-stack expense tracker - log records, watch the totals and insights update live.</td>
-      <td><code>React · TS · Node · MongoDB</code></td>
+      <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My&#8209;Finance&#8209;Tracker</b></a></td>
+      <td>Full-stack expense tracker with live totals and spending insights.</td>
+      <td><sub><code>React&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;Node&nbsp;·&nbsp;MongoDB</code></sub></td>
     </tr>
   </tbody>
 </table>
