@@ -507,38 +507,42 @@ def render_typing():
         f'<stop offset="100%" stop-color="{C_PINK}"/></linearGradient></defs>',
     ]
 
+    # Reveal is done with nested <svg> viewports rather than an animated <clipPath>:
+    # WebKit never animates elements inside a <clipPath> (they are not rendered).
+    font = "'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     cur_t, cur_x = [], []
     for i, text in enumerate(lines):
-        pw = len(text) * cw
+        chars = len(text)
+        pw = chars * cw
         x0 = (w - pw) / 2
-        kt, vals = [], []
-        _kf(kt, vals, 0, 0)
-        _kf(kt, vals, (i * slot) / cycle, 0)
-        _kf(kt, vals, (i * slot + type_t) / cycle, pw)
-        _kf(kt, vals, ((i + 1) * slot - erase_t) / cycle, pw)
-        _kf(kt, vals, ((i + 1) * slot) / cycle, 0)
+        st, sv = [], []
+        for j in range(chars + 1):                      # type in, one glyph per step
+            _kf(st, sv, (i * slot + j / chars * type_t) / cycle, j * cw)
+        for j in range(chars, -1, -1):                  # erase, one glyph per step
+            _kf(st, sv, ((i + 1) * slot - erase_t + (chars - j) / chars * erase_t) / cycle, j * cw)
+        kt, vals = [0.0], [0.0]
+        for t, v in zip(st, sv):
+            _kf(kt, vals, t, v)
         _kf(kt, vals, 1, 0)
         kts = ";".join(f"{v:.4f}" for v in kt)
         wvals = ";".join(f"{v:.1f}" for v in vals)
         parts.append(
-            f'<clipPath id="clip{uid}{i}"><rect x="{x0:.1f}" y="0" height="{h}" width="0">'
-            f'<animate attributeName="width" values="{wvals}" keyTimes="{kts}" dur="{cycle}s" repeatCount="indefinite"/></rect></clipPath>'
-        )
-        parts.append(
-            f'<text x="{x0:.1f}" y="{baseline}" clip-path="url(#clip{uid}{i})" '
-            f'font-family="\'Fira Code\', Consolas, monospace" font-size="{fs}" font-weight="600" '
+            f'<svg x="{x0:.1f}" y="0" width="0" height="{h}" overflow="hidden">'
+            f'<text x="0" y="{baseline}" font-family="{font}" font-size="{fs}" font-weight="600" '
+            f'textLength="{pw:.1f}" lengthAdjust="spacingAndGlyphs" '
             f'fill="url(#tg{uid})">{esc(text)}</text>'
+            f'<animate attributeName="width" values="{wvals}" keyTimes="{kts}" '
+            f'calcMode="discrete" dur="{cycle}s" repeatCount="indefinite"/></svg>'
         )
-        _kf(cur_t, cur_x, (i * slot) / cycle, x0)
-        _kf(cur_t, cur_x, (i * slot + type_t) / cycle, x0 + pw)
-        _kf(cur_t, cur_x, ((i + 1) * slot - erase_t) / cycle, x0 + pw)
-        _kf(cur_t, cur_x, ((i + 1) * slot) / cycle, x0)
+        for t, v in zip(st, sv):
+            _kf(cur_t, cur_x, t, x0 + v)
 
+    _kf(cur_t, cur_x, 1, cur_x[0])
     ckt = ";".join(f"{v:.4f}" for v in cur_t)
     cxs = ";".join(f"{v:.1f}" for v in cur_x)
     parts.append(
         f'<rect x="{cur_x[0]:.1f}" y="{baseline-16}" width="2.5" height="20" fill="{C_PINK}">'
-        f'<animate attributeName="x" values="{cxs}" keyTimes="{ckt}" dur="{cycle}s" repeatCount="indefinite"/>'
+        f'<animate attributeName="x" values="{cxs}" keyTimes="{ckt}" calcMode="discrete" dur="{cycle}s" repeatCount="indefinite"/>'
         f'<animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.5;0.75;1" dur="0.9s" repeatCount="indefinite"/></rect>'
     )
     parts.append("</svg>")
