@@ -24,6 +24,6 @@
   <circle cx="738.4" cy="33.1" r="1.19" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.89s" begin="3.87s" repeatCount="indefinite"/></circle>
   <circle cx="119.7" cy="26.0" r="0.94" fill="#ffffff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="3.82s" begin="0.55s" repeatCount="indefinite"/></circle></g>
 <path fill="url(#fgf)" fill-opacity="0.92" d="M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z"><animate attributeName="d" values="M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z;M0,42 C200,72 400,12 600,42 C800,72 1000,12 1200,42 L1200,140 L0,140 Z;M0,42 C200,12 400,72 600,42 C800,12 1000,72 1200,42 L1200,140 L0,140 Z" dur="6s" repeatCount="indefinite"/></path>
-<text x="600" y="98" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="800" fill="#ffffff">🌌 Ad Astra 🌌</text>
+<text x="600" y="98" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="800" fill="#ffffff">🌌 Ad Astra - to the stars</text>
 <text x="600" y="122" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#eef1ff" fill-opacity="0.85">Thanks for drifting by the flight deck</text>
 </svg>
