@@ -308,7 +308,7 @@ def render_languages(d):
     parts = [card_open(w, h, uid), title_block(24, 40, "MOST USED LANGUAGES", "primary language across public repos")]
 
     langs = d["langs"][:6]
-    total = sum(v for _, v in langs) or 1
+    total = sum(v for _, v in d["langs"]) or 1   # all languages, so the top 6 read as true shares
     colors = []
     for i, (name, _) in enumerate(langs):
         colors.append(LANG_COLORS.get(name, FALLBACK_COLORS[i % len(FALLBACK_COLORS)]))
