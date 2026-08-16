@@ -307,11 +307,13 @@ def render_languages(d):
     w, h, uid = 360, 232, "l"
     parts = [card_open(w, h, uid), title_block(24, 40, "MOST USED LANGUAGES", "primary language across public repos")]
 
-    langs = d["langs"][:6]
-    total = sum(v for _, v in d["langs"]) or 1   # all languages, so the top 6 read as true shares
-    colors = []
-    for i, (name, _) in enumerate(langs):
-        colors.append(LANG_COLORS.get(name, FALLBACK_COLORS[i % len(FALLBACK_COLORS)]))
+    langs = d["langs"][:5]
+    total = sum(v for _, v in d["langs"]) or 1
+    rows = [(name, size, LANG_COLORS.get(name, FALLBACK_COLORS[i % len(FALLBACK_COLORS)]))
+            for i, (name, size) in enumerate(langs)]
+    rest = total - sum(size for _, size in langs)
+    if rest > 0:                                  # keeps the legend and the bar summing to 100%
+        rows.append(("Other", rest, "#5b647a"))
 
     # stacked bar
     bx, by, bw, bh = 24, 64, w - 48, 13
@@ -319,7 +321,7 @@ def render_languages(d):
     parts.append(f'<clipPath id="bar{uid}"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="6.5"/></clipPath>')
     parts.append(f'<g clip-path="url(#bar{uid})">')
     parts.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" fill="#1b2340"/>')
-    for (name, size), col in zip(langs, colors):
+    for _, size, col in rows:
         seg = bw * size / total
         parts.append(f'<rect x="{x:.1f}" y="{by}" width="{seg:.1f}" height="{bh}" fill="{col}"/>')
         x += seg
@@ -327,14 +329,14 @@ def render_languages(d):
 
     # legend list
     y = 108
-    for (name, size), col in zip(langs, colors):
+    for name, size, col in rows:
         pct = size / total * 100
         parts.append(f'<circle cx="30" cy="{y-4}" r="4" fill="{col}"/>')
         parts.append(f'<text x="44" y="{y}" font-family="Segoe UI, sans-serif" font-size="12.5" fill="{TEXT}">{esc(name)}</text>')
         parts.append(f'<text x="{w-24}" y="{y}" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="{col}">{pct:.1f}%</text>')
         y += 21
 
-    if not langs:
+    if not rows:
         parts.append(f'<text x="{w/2}" y="130" text-anchor="middle" font-family="Segoe UI" font-size="13" fill="{MUTED}">No language data yet</text>')
 
     parts.append("</svg>")
