@@ -108,24 +108,24 @@ const mann = {
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Mann5700/ReqBridge-AI-Requirements-Intelligence-Engine"><b>ReqBridge</b></a></td>
+      <td>Turns messy requirement docs into prioritized, conflict-checked Azure DevOps work items via a 9-agent LangGraph pipeline - REST, SPA & MCP surfaces.</td>
+      <td><code>Python · FastAPI · LangGraph · MCP · React</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Job-Application-Resume-CoPilot"><b>Job-Application-Resume-CoPilot</b></a></td>
+      <td>Finds H-1B cap-exempt roles, scores ATS fit, and generates tailored, ATS-optimized PDF resumes.</td>
+      <td><code>Python · FastAPI · React · TS · Tailwind</code></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Mann5700/Bird-Sound-Generator"><b>Bird-Sound-Generator</b></a></td>
       <td>A GAN that dreams up brand-new birdsong out of pure random noise.</td>
       <td><code>Python · Keras</code></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/Distributed-Systems-using-RMI"><b>Distributed-Systems-using-RMI</b></a></td>
-      <td>Command a machine to sleep, wake, or reboot from across the network.</td>
-      <td><code>Java · RMI</code></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Mann5700/Avibra"><b>Avibra</b></a></td>
-      <td>Turning good habits into insurance - full UX + system design study.</td>
-      <td><code>Figma · Design</code></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Mann5700/Network-Delay"><b>Network-Delay</b></a></td>
-      <td>Charting the invisible lag between internet hosts with ping, MTR & iPerf.</td>
-      <td><code>Networks</code></td>
+      <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My-Finance-Tracker</b></a></td>
+      <td>Full-stack expense tracker - log records, watch the totals and insights update live.</td>
+      <td><code>React · TS · Node · MongoDB</code></td>
     </tr>
   </tbody>
 </table>
