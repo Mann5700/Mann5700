@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Milky Way over Yellowstone</h3>
-<p align="center"><sub>🗓️ 2026-08-16 &nbsp;·&nbsp; 📷 Dave Lane</sub></p>
+<h3 align="center">A Golden Corona Eclipse</h3>
+<p align="center"><sub>🗓️ 2026-08-17 &nbsp;·&nbsp; 📷 Rui Santos  (Living Impressions)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/mwyellowstone_lane_1800.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/mwyellowstone_lane_1800.jpg" width="62%" alt="Milky Way over Yellowstone"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/GoldCorona_Santos_1751.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/GoldCorona_Santos_1751.jpg" width="62%" alt="A Golden Corona Eclipse"/>
   </a>
 </p>
-<p align="center"><sub>The Milky Way was not created by an evaporating lake.  The colorful pool of water, about 10 meters across, is known as Silex Spring and is located in Yellowstone National Park in Wyoming, USA.  Illuminated artificially, the colors are caused by layers of bacteria that grow in the hot spring.  Steam…</sub></p>
+<p align="center"><sub>This total solar eclipse appeared not only poetically beautiful but scientifically interesting.  Usually the solar corona appears white, and to some observers the corona of last week's total solar eclipse did appear this pearly color.  But this time, totality observers in Spain saw a corona that…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
