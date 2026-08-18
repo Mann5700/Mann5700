@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Golden Corona Eclipse</h3>
-<p align="center"><sub>🗓️ 2026-08-17 &nbsp;·&nbsp; 📷 Rui Santos  (Living Impressions)</sub></p>
+<h3 align="center">Perseids from Perseus</h3>
+<p align="center"><sub>🗓️ 2026-08-18 &nbsp;·&nbsp; 📷 Jakub Kuřák</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/GoldCorona_Santos_1751.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/GoldCorona_Santos_1751.jpg" width="62%" alt="A Golden Corona Eclipse"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg" width="62%" alt="Perseids from Perseus"/>
   </a>
 </p>
-<p align="center"><sub>This total solar eclipse appeared not only poetically beautiful but scientifically interesting.  Usually the solar corona appears white, and to some observers the corona of last week's total solar eclipse did appear this pearly color.  But this time, totality observers in Spain saw a corona that…</sub></p>
+<p align="center"><sub>This was a good year for the Perseids meteor shower.  A key reason was the Moon was absent from lighting up Earth's night sky so that more meteors were visible than usual.  Where was the Moon?  It was busy visiting the Sun.  Near the Perseids peak, the Moon moved directly in front of the Sun and…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
