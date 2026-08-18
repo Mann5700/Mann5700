@@ -64,6 +64,6 @@
   <text x="669.0" y="100" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b949e" letter-spacing="0.5">LANGUAGES</text>
   <rect x="748.0" y="16" width="134.0" height="100" rx="10" fill="#121a35" stroke="#22d3ee" stroke-opacity="0.35"/>
   <path d="M815.0,31.0 L817.1,37.1 L823.6,37.2 L818.4,41.1 L820.3,47.3 L815.0,43.6 L809.7,47.3 L811.6,41.1 L806.4,37.2 L812.9,37.1 Z" fill="#22d3ee"><animate attributeName="opacity" values="0.55;1;0.55" dur="5.0s" repeatCount="indefinite"/></path>
-  <text x="815.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">3.8</text>
+  <text x="815.0" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="#c9d1d9">3.9</text>
   <text x="815.0" y="100" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b949e" letter-spacing="0.5">LIGHT-YEARS</text>
   </svg>
