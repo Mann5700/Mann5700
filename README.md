@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Perseids from Perseus</h3>
-<p align="center"><sub>🗓️ 2026-08-18 &nbsp;·&nbsp; 📷 Jakub Kuřák</sub></p>
+<h3 align="center">The Case of the Mysterious Maybe Meteor</h3>
+<p align="center"><sub>🗓️ 2026-08-19 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg" width="62%" alt="Perseids from Perseus"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/perseids_eclipse_mystery.mp4" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="The Case of the Mysterious Maybe Meteor"/>
   </a>
 </p>
-<p align="center"><sub>This was a good year for the Perseids meteor shower.  A key reason was the Moon was absent from lighting up Earth's night sky so that more meteors were visible than usual.  Where was the Moon?  It was busy visiting the Sun.  Near the Perseids peak, the Moon moved directly in front of the Sun and…</sub></p>
+<p align="center"><sub>Whatdunit? What disappeared while crossing a partially eclipsed Sun? Let’s present the evidence. The 24 frames-per-second video was taken in Spain (40°34'30.3"N 1°12'28.8"W) at 20:28 local time on August 12, 2026. The Perseids meteor shower was at its peak during this time. Is this a meteor? Meteor…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
