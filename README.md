@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Case of the Mysterious Maybe Meteor</h3>
-<p align="center"><sub>🗓️ 2026-08-19 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">The Elephant's Trunk in Cepheus</h3>
+<p align="center"><sub>🗓️ 2026-08-20 &nbsp;·&nbsp; 📷 Eddie Sgarbossa</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/perseids_eclipse_mystery.mp4" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="The Case of the Mysterious Maybe Meteor"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg" width="62%" alt="The Elephant's Trunk in Cepheus"/>
   </a>
 </p>
-<p align="center"><sub>Whatdunit? What disappeared while crossing a partially eclipsed Sun? Let’s present the evidence. The 24 frames-per-second video was taken in Spain (40°34'30.3"N 1°12'28.8"W) at 20:28 local time on August 12, 2026. The Perseids meteor shower was at its peak during this time. Is this a meteor? Meteor…</sub></p>
+<p align="center"><sub>Like an illustration in a galactic Just So Story, the Elephant's Trunk Nebula winds through the emission region and young star cluster complex IC 1396, in the high and far off constellation of Cepheus. Also known as vdB 142, this cosmic elephant's trunk is over 20 light-years long. The detailed…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
