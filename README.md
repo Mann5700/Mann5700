@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Elephant's Trunk in Cepheus</h3>
-<p align="center"><sub>🗓️ 2026-08-20 &nbsp;·&nbsp; 📷 Eddie Sgarbossa</sub></p>
+<h3 align="center">Time-Lapse of the Star S301 Orbiting the Black Hole in the Center of the Galaxy</h3>
+<p align="center"><sub>🗓️ 2026-08-21 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg" width="62%" alt="The Elephant's Trunk in Cepheus"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/eso2612b.mp4" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Time-Lapse of the Star S301 Orbiting the Black Hole in the Center of the Galaxy"/>
   </a>
 </p>
-<p align="center"><sub>Like an illustration in a galactic Just So Story, the Elephant's Trunk Nebula winds through the emission region and young star cluster complex IC 1396, in the high and far off constellation of Cepheus. Also known as vdB 142, this cosmic elephant's trunk is over 20 light-years long. The detailed…</sub></p>
+<p align="center"><sub>What does it feel like to zoom around a spinning supermassive black hole?   The featured video is an animation showing a time-lapse of 4 years of observations of the star S301 orbiting Sagittarius A*, the 4-million-solar-mass black hole in the center of our Galaxy.   S301 was discovered in 2023…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
