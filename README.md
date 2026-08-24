@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Cassini Approaches Saturn</h3>
-<p align="center"><sub>🗓️ 2026-08-23 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">Comet 220P in Outburst</h3>
+<p align="center"><sub>🗓️ 2026-08-24 &nbsp;·&nbsp; 📷 Spilios Asimakopoulos</sub></p>
 <p align="center">
-  <a href="https://vimeo.com/11386048" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/apod/thumb.svg" width="62%" alt="Cassini Approaches Saturn"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg" width="62%" alt="Comet 220P in Outburst"/>
   </a>
 </p>
-<p align="center"><sub>What would it look like to approach the grand planet Saturn? One doesn't have to just imagine -- the Cassini spacecraft did just this in 2004, recording thousands of images along the way, and hundreds of thousands more since entering orbit. Some of Cassini's early images have been digitally…</sub></p>
+<p align="center"><sub>Comet 220P is unexpectedly bright. Normally, periodic Comet 220P/McNaught is so dim that to see it requires a telescope. Two surprising outbursts this year, however, have made it about 20,000 times brighter than usual, so that it is now visible with binoculars and long-duration camera exposures. As…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
