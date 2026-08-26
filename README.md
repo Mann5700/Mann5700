@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Earth's Shadow Visualized with Lunar Eclipses</h3>
-<p align="center"><sub>🗓️ 2026-08-25 &nbsp;·&nbsp; 📷 Tim Martin</sub></p>
+<h3 align="center">JWST Images The Lion's Head Nebula</h3>
+<p align="center"><sub>🗓️ 2026-08-26</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg" width="62%" alt="Earth's Shadow Visualized with Lunar Eclipses"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg" width="62%" alt="JWST Images The Lion's Head Nebula"/>
   </a>
 </p>
-<p align="center"><sub>What’s creating this giant hole in space? This is not a black hole — it’s a shadow.  It’s Earth’s shadow.  Since at least the time of Aristotle, people have noted that Earth's dark shadow on the Moon during a partial lunar eclipse is circular -- although never a whole circle.  Using modern digital…</sub></p>
+<p align="center"><sub>Are we looking at the future of our Sun? The James Webb Space Telescope captured today’s composite image of the Lion’s Head Nebula (NGC 2392) with its NIRCam and MIRI instruments. The Lion’s Head Nebula is the remnant of a Sun-like star. This star was unable to sustain the nuclear fusion in its…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
