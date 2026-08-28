@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Colorful Aurora over Icelandic Waterfall</h3>
-<p align="center"><sub>🗓️ 2026-08-27 &nbsp;·&nbsp; 📷 Victor Lima  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">The Sky Turns Above Paranal</h3>
+<p align="center"><sub>🗓️ 2026-08-28 &nbsp;·&nbsp; 📷 Osvaldo Castillo</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/Aurora_over_Fall.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/Aurora_over_Fall.jpg" width="62%" alt="Colorful Aurora over Icelandic Waterfall"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg" width="62%" alt="The Sky Turns Above Paranal"/>
   </a>
 </p>
-<p align="center"><sub>What a sight to behold, when a night sky became filled with colors that appeared to rain over the Skógafoss waterfall in Iceland.     This image was taken in a single 5 second exposure by the photographer in April 2025.   Seeing an aurora is on many people's bucket lists.   But it is not easy.   It…</sub></p>
+<p align="center"><sub>At the latitude of ESO's Paranal Observatory in Chile, about 25 degrees south, Earth's rotation moves the planet's surface eastward at over 1,500 kilometers per hour. And while that's faster than the speed of sound at sea level, the motion is imperceptible. Still, that motion can be revealed in the…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
