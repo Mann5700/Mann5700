@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Sky Turns Above Paranal</h3>
-<p align="center"><sub>🗓️ 2026-08-28 &nbsp;·&nbsp; 📷 Osvaldo Castillo</sub></p>
+<h3 align="center">Eclipse Pair</h3>
+<p align="center"><sub>🗓️ 2026-08-29 &nbsp;·&nbsp; 📷 Gwenaël Blanck</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg" width="62%" alt="The Sky Turns Above Paranal"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg" width="62%" alt="Eclipse Pair"/>
   </a>
 </p>
-<p align="center"><sub>At the latitude of ESO's Paranal Observatory in Chile, about 25 degrees south, Earth's rotation moves the planet's surface eastward at over 1,500 kilometers per hour. And while that's faster than the speed of sound at sea level, the motion is imperceptible. Still, that motion can be revealed in the…</sub></p>
+<p align="center"><sub>clipses tend to come in pairs. Twice a year, during an eclipse season that lasts about 34 days, Sun, Moon, and Earth can nearly align. Then the new and full phases of the Moon, separated by just over 14 days, create a solar and a lunar eclipse. But only rarely is the alignment at both new moon and…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
