@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Eclipse Pair</h3>
-<p align="center"><sub>🗓️ 2026-08-29 &nbsp;·&nbsp; 📷 Gwenaël Blanck</sub></p>
+<h3 align="center">M74: A Grand Design Spiral</h3>
+<p align="center"><sub>🗓️ 2026-08-30</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg" width="62%" alt="Eclipse Pair"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/m74_hst_1280.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/m74_hst_1280.jpg" width="62%" alt="M74: A Grand Design Spiral"/>
   </a>
 </p>
-<p align="center"><sub>clipses tend to come in pairs. Twice a year, during an eclipse season that lasts about 34 days, Sun, Moon, and Earth can nearly align. Then the new and full phases of the Moon, separated by just over 14 days, create a solar and a lunar eclipse. But only rarely is the alignment at both new moon and…</sub></p>
+<p align="center"><sub>If not the most grand, then this spiral galaxy is at least one of the most photogenic.  An island universe of about 100 billion stars, 32 million light-years away toward the constellation Pisces, M74 presents a gorgeous face-on view.  Classified as an Sc galaxy, the grand design of M74's graceful…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
