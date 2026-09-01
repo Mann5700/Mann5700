@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Launch of the Roman Space Telescope</h3>
-<p align="center"><sub>🗓️ 2026-08-31 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">A Plane Lunar Eclipse</h3>
+<p align="center"><sub>🗓️ 2026-09-01</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/RomanLaunch_NASA.mp4" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Launch of the Roman Space Telescope"/>
+  <a href="https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg" width="62%" alt="A Plane Lunar Eclipse"/>
   </a>
 </p>
-<p align="center"><sub>A new telescope has been launched into space to study the universe. The Nancy Grace Roman Space Telescope (RST) has the same size main mirror as the Hubble Space Telescope (HST) but sees 100 times more sky during each snapshot.  This is possible because when compared to HST, RST's main mirror is…</sub></p>
+<p align="center"><sub>Did you need to be on the right side of this airplane to see this eclipse? No.  Lunar eclipses are routinely seen from the half of the Earth facing the Moon when the eclipse occurs, making them some of the most commonly witnessed astronomical events. You don't even need any special equipment to see…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
