@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Plane Lunar Eclipse</h3>
-<p align="center"><sub>🗓️ 2026-09-01</sub></p>
+<h3 align="center">Solar Eclipses and Culture</h3>
+<p align="center"><sub>🗓️ 2026-09-02 &nbsp;·&nbsp; 📷 Javier Castro  Text: Keighley Rockcliffe   (NASA GSFC,  UMBC CSST,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg" width="62%" alt="A Plane Lunar Eclipse"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg" width="62%" alt="Solar Eclipses and Culture"/>
   </a>
 </p>
-<p align="center"><sub>Did you need to be on the right side of this airplane to see this eclipse? No.  Lunar eclipses are routinely seen from the half of the Earth facing the Moon when the eclipse occurs, making them some of the most commonly witnessed astronomical events. You don't even need any special equipment to see…</sub></p>
+<p align="center"><sub>Pretend you have never heard of a solar eclipse. The Sun’s behavior has been predictable your whole life. One day, you witness the sky transform as it does in today’s spliced image spanning two hours of the August 12, 2026 solar eclipse. The Sun disappears, leaving behind a bright, empty ring. What…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
