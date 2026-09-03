@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Solar Eclipses and Culture</h3>
-<p align="center"><sub>🗓️ 2026-09-02 &nbsp;·&nbsp; 📷 Javier Castro  Text: Keighley Rockcliffe   (NASA GSFC,  UMBC CSST,  CRESST II)</sub></p>
+<h3 align="center">The Eclipse and the Stork</h3>
+<p align="center"><sub>🗓️ 2026-09-03 &nbsp;·&nbsp; 📷 Włodzimierz Bubak  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg" width="62%" alt="Solar Eclipses and Culture"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg" width="62%" alt="The Eclipse and the Stork"/>
   </a>
 </p>
-<p align="center"><sub>Pretend you have never heard of a solar eclipse. The Sun’s behavior has been predictable your whole life. One day, you witness the sky transform as it does in today’s spliced image spanning two hours of the August 12, 2026 solar eclipse. The Sun disappears, leaving behind a bright, empty ring. What…</sub></p>
+<p align="center"><sub>How do animals react to a total solar eclipse?   The featured image shows a stork roosting on her nest in Poland at a partial phase of the recent total solar eclipse.   If you are lucky enough to experience a total eclipse somewhere quiet and close to nature, you may be able to notice unusual…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
