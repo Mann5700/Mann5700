@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Eclipse and the Stork</h3>
-<p align="center"><sub>🗓️ 2026-09-03 &nbsp;·&nbsp; 📷 Włodzimierz Bubak  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">Nā ʻUhane Māhoe Huki Pū i ke Ola</h3>
+<p align="center"><sub>🗓️ 2026-09-04</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg" width="62%" alt="The Eclipse and the Stork"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg" width="62%" alt="Nā ʻUhane Māhoe Huki Pū i ke Ola"/>
   </a>
 </p>
-<p align="center"><sub>How do animals react to a total solar eclipse?   The featured image shows a stork roosting on her nest in Poland at a partial phase of the recent total solar eclipse.   If you are lucky enough to experience a total eclipse somewhere quiet and close to nature, you may be able to notice unusual…</sub></p>
+<p align="center"><sub>Nā ʻUhane Māhoe Huki Pū i ke Ola, is the Hawaiian name given to this image of a pair of spiral galaxies locked in a mutual gravitational embrace. Some 200 million light-years distant toward the high flying constellation Pegasus their spectacular, galactic scale merger is captured in sharp detail in…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
