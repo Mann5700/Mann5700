@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Nā ʻUhane Māhoe Huki Pū i ke Ola</h3>
-<p align="center"><sub>🗓️ 2026-09-04</sub></p>
+<h3 align="center">Chasing the Moon's Shadow</h3>
+<p align="center"><sub>🗓️ 2026-09-05</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg" width="62%" alt="Nā ʻUhane Māhoe Huki Pū i ke Ola"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg" width="62%" alt="Chasing the Moon's Shadow"/>
   </a>
 </p>
-<p align="center"><sub>Nā ʻUhane Māhoe Huki Pū i ke Ola, is the Hawaiian name given to this image of a pair of spiral galaxies locked in a mutual gravitational embrace. Some 200 million light-years distant toward the high flying constellation Pegasus their spectacular, galactic scale merger is captured in sharp detail in…</sub></p>
+<p align="center"><sub>Chasing the shadow of a New Moon, NASA’s WB-57F high altitude research aircraft took to the skies off the coast of Iceland on August 12 to observe a total solar eclipse. At 50,000 feet the aircraft was piloted along the precisely determined path of totality to maximize its time in the Moon’s…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
