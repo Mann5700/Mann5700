@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Pelican Nebula in Gas, Dust, and Stars</h3>
-<p align="center"><sub>🗓️ 2026-09-07 &nbsp;·&nbsp; 📷 Mark Killion</sub></p>
+<h3 align="center">Hubble: Decagon Around Saturn's South Pole</h3>
+<p align="center"><sub>🗓️ 2026-09-08</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg" width="62%" alt="The Pelican Nebula in Gas, Dust, and Stars"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg" width="62%" alt="Hubble: Decagon Around Saturn's South Pole"/>
   </a>
 </p>
-<p align="center"><sub>The Pelican Nebula is slowly being transformed.  IC 5070 (an official designation) is divided from the larger North America Nebula by a molecular cloud filled with dark dust.  The deep featured picture from Utah, USA incorporates 25 hours of exposure and brings out great details of this filamentary…</sub></p>
+<p align="center"><sub>Why are Saturn’s poles geometric? Saturn’s North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA’s Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s.  Now, recent observations of Saturn by the Hubble…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
