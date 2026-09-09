@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Hubble: Decagon Around Saturn's South Pole</h3>
-<p align="center"><sub>🗓️ 2026-09-08</sub></p>
+<h3 align="center">Witness XZ Andromedae Wink</h3>
+<p align="center"><sub>🗓️ 2026-09-09 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg" width="62%" alt="Hubble: Decagon Around Saturn's South Pole"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/xz_and.mp4" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Witness XZ Andromedae Wink"/>
   </a>
 </p>
-<p align="center"><sub>Why are Saturn’s poles geometric? Saturn’s North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA’s Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s.  Now, recent observations of Saturn by the Hubble…</sub></p>
+<p align="center"><sub>Is this star winking at us? The central object in today’s animation is not one but two stars. XZ Andromedae, indicated by the bold lines, is an Algol-type eclipsing binary with a nearly edge-on orbit from Earth’s perspective. The bottom light curve shows the amount of light from the system dim and…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
