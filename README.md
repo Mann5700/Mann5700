@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Witness XZ Andromedae Wink</h3>
-<p align="center"><sub>🗓️ 2026-09-09 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">LDN 1295: The Giraffe Nebula</h3>
+<p align="center"><sub>🗓️ 2026-09-10 &nbsp;·&nbsp; 📷 Alessandro Merga  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/xz_and.mp4" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Witness XZ Andromedae Wink"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" width="62%" alt="LDN 1295: The Giraffe Nebula"/>
   </a>
 </p>
-<p align="center"><sub>Is this star winking at us? The central object in today’s animation is not one but two stars. XZ Andromedae, indicated by the bold lines, is an Algol-type eclipsing binary with a nearly edge-on orbit from Earth’s perspective. The bottom light curve shows the amount of light from the system dim and…</sub></p>
+<p align="center"><sub>What does this image look like to you?   Many see a giraffe facing right, with neck stretched high and long legs mid-stride (but some may see a squirrel instead).   The featured image shows LDN 1295, also called the Giraffe Nebula, in the constellation of the mythical queen of Aethiopia…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
