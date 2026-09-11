@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">LDN 1295: The Giraffe Nebula</h3>
-<p align="center"><sub>🗓️ 2026-09-10 &nbsp;·&nbsp; 📷 Alessandro Merga  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">M83: The Southern Pinwheel</h3>
+<p align="center"><sub>🗓️ 2026-09-11 &nbsp;·&nbsp; 📷 Aldo Zanetti</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" width="62%" alt="LDN 1295: The Giraffe Nebula"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" width="62%" alt="M83: The Southern Pinwheel"/>
   </a>
 </p>
-<p align="center"><sub>What does this image look like to you?   Many see a giraffe facing right, with neck stretched high and long legs mid-stride (but some may see a squirrel instead).   The featured image shows LDN 1295, also called the Giraffe Nebula, in the constellation of the mythical queen of Aethiopia…</sub></p>
+<p align="center"><sub>Beautiful and bright spiral galaxy M83 lies some twelve million light-years away, near the southeastern tip of the very long constellation Hydra. Prominent spiral arms traced by dark dust lanes and blue star clusters lend this galaxy its popular name, the Southern Pinwheel.  Still, reddish star…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
