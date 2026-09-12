@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">M83: The Southern Pinwheel</h3>
-<p align="center"><sub>🗓️ 2026-09-11 &nbsp;·&nbsp; 📷 Aldo Zanetti</sub></p>
+<h3 align="center">Apollo 11: Catching Some Sun</h3>
+<p align="center"><sub>🗓️ 2026-09-12</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" width="62%" alt="M83: The Southern Pinwheel"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" width="62%" alt="Apollo 11: Catching Some Sun"/>
   </a>
 </p>
-<p align="center"><sub>Beautiful and bright spiral galaxy M83 lies some twelve million light-years away, near the southeastern tip of the very long constellation Hydra. Prominent spiral arms traced by dark dust lanes and blue star clusters lend this galaxy its popular name, the Southern Pinwheel.  Still, reddish star…</sub></p>
+<p align="center"><sub>Bright sunlight glints as long dark shadows mark this image of the surface of the Moon. It was taken on July 20, 1969, by Apollo 11 astronaut Neil Armstrong, the first to walk on the lunar surface. Pictured is the mission's lunar module, the Eagle, and spacesuited lunar module pilot Buzz Aldrin.…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
