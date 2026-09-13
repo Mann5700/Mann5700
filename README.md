@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Apollo 11: Catching Some Sun</h3>
-<p align="center"><sub>🗓️ 2026-09-12</sub></p>
+<h3 align="center">Comet NEOWISE Rising over the Adriatic Sea</h3>
+<p align="center"><sub>🗓️ 2026-09-13 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" width="62%" alt="Apollo 11: Catching Some Sun"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Comet NEOWISE Rising over the Adriatic Sea"/>
   </a>
 </p>
-<p align="center"><sub>Bright sunlight glints as long dark shadows mark this image of the surface of the Moon. It was taken on July 20, 1969, by Apollo 11 astronaut Neil Armstrong, the first to walk on the lunar surface. Pictured is the mission's lunar module, the Eagle, and spacesuited lunar module pilot Buzz Aldrin.…</sub></p>
+<p align="center"><sub>This sight was worth getting out of bed early.  Just over four years ago, Comet C/2020 F3 (NEOWISE) rose before dawn to the delight of northern sky enthusiasts awake that early. Up before sunrise on July 8th, the featured photographer was able to capture in dramatic fashion one of the few comets…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
