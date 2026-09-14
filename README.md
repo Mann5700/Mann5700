@@ -140,14 +140,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Comet NEOWISE Rising over the Adriatic Sea</h3>
-<p align="center"><sub>🗓️ 2026-09-13 &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">Where Your Elements Came From</h3>
+<p align="center"><sub>🗓️ 2026-09-14</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Comet NEOWISE Rising over the Adriatic Sea"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg" width="62%" alt="Where Your Elements Came From"/>
   </a>
 </p>
-<p align="center"><sub>This sight was worth getting out of bed early.  Just over four years ago, Comet C/2020 F3 (NEOWISE) rose before dawn to the delight of northern sky enthusiasts awake that early. Up before sunrise on July 8th, the featured photographer was able to capture in dramatic fashion one of the few comets…</sub></p>
+<p align="center"><sub>The hydrogen in your body and present in every molecule of water came from the Big Bang.  There are no other appreciable sources of hydrogen in the universe.  The carbon in your body was made by nuclear fusion in the interior of stars, as was the oxygen.  Much of the iron in your body was made…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
