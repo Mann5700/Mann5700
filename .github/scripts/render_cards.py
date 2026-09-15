@@ -447,7 +447,8 @@ def render_activity(d):
 
     left, right, top, bottom = 42, w - 26, 74, h - 34
     counts = [c for _, c in days]
-    mx = max(counts) or 1
+    peak = max(counts)
+    mx = peak or 1          # avoid divide-by-zero when the window has no contributions
     n = len(days)
 
     def px(i):
@@ -478,8 +479,8 @@ def render_activity(d):
     for x, y in pts:
         parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.6" fill="{C_CYAN}"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/></circle>')
 
-    peak_i = counts.index(mx)
-    parts.append(f'<text x="{px(peak_i):.1f}" y="{py(mx)-9:.1f}" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="{C_CYAN}">{mx}</text>')
+    peak_i = counts.index(peak)
+    parts.append(f'<text x="{px(peak_i):.1f}" y="{py(peak)-9:.1f}" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="{C_CYAN}">{peak}</text>')
     for i in (0, n // 2, n - 1):
         parts.append(f'<text x="{px(i):.1f}" y="{h-13}" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="{MUTED}">{esc(days[i][0][5:])}</text>')
     parts.append(f'<text x="{right}" y="62" text-anchor="end" font-family="Consolas, monospace" font-size="10.5" fill="{MUTED}">\u03a3 {sum(counts)} in 30d</text>')
