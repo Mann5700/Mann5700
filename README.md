@@ -80,11 +80,11 @@ const mann = {
 
 <p align="center">
   <img width="49%" src="./assets/cards/languages.svg" alt="Top languages"/>
-  <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
+  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak - total, current and longest"/>
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak - total, current and longest"/>
+  <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
   <img width="49%" src="./assets/cards/trophy.svg" alt="Achievement tiles"/>
 </p>
 
