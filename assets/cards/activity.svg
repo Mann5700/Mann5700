@@ -77,7 +77,7 @@
   <circle cx="816.6" cy="166.0" r="2.6" fill="#22d3ee"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/></circle>
   <circle cx="845.3" cy="166.0" r="2.6" fill="#22d3ee"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/></circle>
   <circle cx="874.0" cy="74.0" r="2.6" fill="#22d3ee"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/></circle>
-  <text x="874.0" y="65.0" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#22d3ee">2</text>
+  <text x="866.0" y="89.0" text-anchor="end" font-family="Consolas, monospace" font-size="10" fill="#22d3ee">2</text>
   <text x="42.0" y="187" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b949e">08-17</text>
   <text x="472.3" y="187" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b949e">09-01</text>
   <text x="874.0" y="187" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b949e">09-15</text>

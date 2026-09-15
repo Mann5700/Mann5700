@@ -304,7 +304,7 @@ def render_stats(d):
 
 
 def render_languages(d):
-    w, h, uid = 360, 232, "l"
+    w, h, uid = 480, 195, "l"          # matches stats.svg so the two sit level side by side
     parts = [card_open(w, h, uid), title_block(24, 40, "MOST USED LANGUAGES", "primary language across public repos")]
 
     langs = d["langs"][:5]
@@ -316,7 +316,7 @@ def render_languages(d):
         rows.append(("Other", rest, "#5b647a"))
 
     # stacked bar
-    bx, by, bw, bh = 24, 64, w - 48, 13
+    bx, by, bw, bh = 24, 72, w - 48, 13
     x = bx
     parts.append(f'<clipPath id="bar{uid}"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="6.5"/></clipPath>')
     parts.append(f'<g clip-path="url(#bar{uid})">')
@@ -327,14 +327,15 @@ def render_languages(d):
         x += seg
     parts.append("</g>")
 
-    # legend list
-    y = 108
-    for name, size, col in rows:
+    # legend, two columns of three so it fits the shorter card
+    col_w, col_gap, per_col = 204, 24, 3
+    for i, (name, size, col) in enumerate(rows):
+        cx0 = 24 + (i // per_col) * (col_w + col_gap)
+        y = 116 + (i % per_col) * 24
         pct = size / total * 100
-        parts.append(f'<circle cx="30" cy="{y-4}" r="4" fill="{col}"/>')
-        parts.append(f'<text x="44" y="{y}" font-family="Segoe UI, sans-serif" font-size="12.5" fill="{TEXT}">{esc(name)}</text>')
-        parts.append(f'<text x="{w-24}" y="{y}" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="{col}">{pct:.1f}%</text>')
-        y += 21
+        parts.append(f'<circle cx="{cx0+6}" cy="{y-4}" r="4" fill="{col}"/>')
+        parts.append(f'<text x="{cx0+20}" y="{y}" font-family="Segoe UI, sans-serif" font-size="12.5" fill="{TEXT}">{esc(name)}</text>')
+        parts.append(f'<text x="{cx0+col_w}" y="{y}" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="{col}">{pct:.1f}%</text>')
 
     if not rows:
         parts.append(f'<text x="{w/2}" y="130" text-anchor="middle" font-family="Segoe UI" font-size="13" fill="{MUTED}">No language data yet</text>')
@@ -344,7 +345,7 @@ def render_languages(d):
 
 
 def render_trophy(d):
-    w, h, uid = 900, 132, "t"
+    w, h, uid = 480, 195, "t"          # matches streak.svg so the two sit level side by side
     parts = [card_open(w, h, uid)]
 
     tiles = [
@@ -356,17 +357,17 @@ def render_trophy(d):
         ("LIGHT-YEARS", f'{d["years"]:.1f}', C_CYAN),
     ]
 
-    pad, gap, n = 18, 12, len(tiles)
-    tile_w = (w - 2 * pad - (n - 1) * gap) / n
-    tile_h = 100
-    ty = 16
+    pad, gap, cols = 18, 12, 3
+    tile_w = (w - 2 * pad - (cols - 1) * gap) / cols
+    tile_h, gap_y, ty0 = 76, 12, 18
     for i, (label, value, col) in enumerate(tiles):
-        tx = pad + i * (tile_w + gap)
+        tx = pad + (i % cols) * (tile_w + gap)
+        ty = ty0 + (i // cols) * (tile_h + gap_y)
         cx = tx + tile_w / 2
         parts.append(f'<rect x="{tx:.1f}" y="{ty}" width="{tile_w:.1f}" height="{tile_h}" rx="10" fill="#121a35" stroke="{col}" stroke-opacity="0.35"/>')
-        parts.append(f'<path d="{star_path(cx, ty + 24, 9)}" fill="{col}"><animate attributeName="opacity" values="0.55;1;0.55" dur="{3 + i*0.4}s" repeatCount="indefinite"/></path>')
-        parts.append(f'<text x="{cx:.1f}" y="{ty+64}" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="23" font-weight="800" fill="{TEXT}">{esc(value)}</text>')
-        parts.append(f'<text x="{cx:.1f}" y="{ty+84}" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="{MUTED}" letter-spacing="0.5">{esc(label)}</text>')
+        parts.append(f'<path d="{star_path(cx, ty + 19, 8)}" fill="{col}"><animate attributeName="opacity" values="0.55;1;0.55" dur="{3 + i*0.4}s" repeatCount="indefinite"/></path>')
+        parts.append(f'<text x="{cx:.1f}" y="{ty+49}" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="20" font-weight="800" fill="{TEXT}">{esc(value)}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{ty+65}" text-anchor="middle" font-family="Consolas, monospace" font-size="8.5" fill="{MUTED}" letter-spacing="0.4">{esc(label)}</text>')
 
     parts.append("</svg>")
     return "\n  ".join(parts)
@@ -480,7 +481,12 @@ def render_activity(d):
         parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.6" fill="{C_CYAN}"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/></circle>')
 
     peak_i = counts.index(peak)
-    parts.append(f'<text x="{px(peak_i):.1f}" y="{py(peak)-9:.1f}" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="{C_CYAN}">{peak}</text>')
+    peak_x, peak_y = px(peak_i), py(peak)
+    if peak_x > right - 80:          # drop below the point so it clears the Σ summary
+        lx, ly, anchor = peak_x - 8, peak_y + 15, "end"
+    else:
+        lx, ly, anchor = peak_x, peak_y - 9, "middle"
+    parts.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-family="Consolas, monospace" font-size="10" fill="{C_CYAN}">{peak}</text>')
     for i in (0, n // 2, n - 1):
         parts.append(f'<text x="{px(i):.1f}" y="{h-13}" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="{MUTED}">{esc(days[i][0][5:])}</text>')
     parts.append(f'<text x="{right}" y="62" text-anchor="end" font-family="Consolas, monospace" font-size="10.5" fill="{MUTED}">\u03a3 {sum(counts)} in 30d</text>')

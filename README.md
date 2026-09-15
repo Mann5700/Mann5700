@@ -79,20 +79,17 @@ const mann = {
 ## 📡 &nbsp; Galactic Telemetry
 
 <p align="center">
+  <img width="49%" src="./assets/cards/languages.svg" alt="Top languages"/>
   <img width="49%" src="./assets/cards/stats.svg" alt="GitHub stats"/>
-  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak - total, current and longest"/>
 </p>
 
 <p align="center">
-  <img width="42%" src="./assets/cards/languages.svg" alt="Top languages"/>
+  <img width="49%" src="./assets/cards/streak.svg" alt="Contribution streak - total, current and longest"/>
+  <img width="49%" src="./assets/cards/trophy.svg" alt="Achievement tiles"/>
 </p>
 
 <p align="center">
   <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Activity - contribution trajectory, last 30 days"/>
-</p>
-
-<p align="center">
-  <img width="98%" src="./assets/cards/trophy.svg" alt="Achievement tiles"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
