@@ -89,8 +89,18 @@ const mann = {
 </p>
 
 <p align="center">
-  <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Activity - contribution trajectory, last 30 days"/>
+  <img width="98%" src="./assets/cards/activity.svg" alt="Orbital Trajectory - contribution flight path, last 30 days"/>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mann5700/Mann5700/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mann5700/Mann5700/output/github-contribution-grid-snake.svg"/>
+    <img width="98%" src="https://raw.githubusercontent.com/Mann5700/Mann5700/output/github-contribution-grid-snake.svg" alt="A snake eating my contribution graph"/>
+  </picture>
+</p>
+
+<div align="center"><sub>🛰️ The probe above flies my last 30 days of commits &nbsp;·&nbsp; 🐍 the snake below devours the whole year. Both redraw themselves on a schedule.</sub></div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
