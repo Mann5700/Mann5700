@@ -147,14 +147,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Daytime Eclipse: Moon Occults Venus</h3>
-<p align="center"><sub>🗓️ 2026-09-15 &nbsp;·&nbsp; 📷 Arnaud Mariat</sub></p>
+<h3 align="center">Webb's View of M64</h3>
+<p align="center"><sub>🗓️ 2026-09-16</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg" width="62%" alt="A Daytime Eclipse: Moon Occults Venus"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg" width="62%" alt="Webb's View of M64"/>
   </a>
 </p>
-<p align="center"><sub>There was something behind the clouds.  Upon close inspection, it was the Moon, which was hard to see yesterday around noon above the small village of Cessy, France.  But soon, it was not only the Moon. As expected, a bright dot suddenly appeared from behind the Moon -- the planet Venus far in the…</sub></p>
+<p align="center"><sub>Sometimes where Hubble finds darkness, Webb sees light. An example is today’s composite images of Messier 64 (M64), a nearby spiral galaxy of many names. The dark band of dust partially blocking its bright core earned it the moniker “the Black Eye Galaxy.” Webb’s Mid-InfraRed Instrument (MIRI) sees…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
