@@ -106,6 +106,7 @@ const mann = {
 
 ## ☄️ &nbsp; Planetary Systems - Featured Missions
 
+<!-- MISSIONS:START -->
 <table width="100%">
   <thead>
     <tr>
@@ -116,29 +117,40 @@ const mann = {
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Mann5700/ReqBridge-AI-Requirements-Intelligence-Engine"><b>ReqBridge</b></a></td>
-      <td>Requirement docs → prioritized, conflict-checked Azure DevOps work items.</td>
-      <td><sub><code>Python&nbsp;·&nbsp;FastAPI&nbsp;·&nbsp;LangGraph&nbsp;·&nbsp;MCP&nbsp;·&nbsp;React</code></sub></td>
+      <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My-Finance-Tracker</b></a></td>
+      <td>Full-stack expense tracker with live totals and spending insights, backed by MongoDB.</td>
+      <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;JavaScript</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/Job-Application-Resume-CoPilot"><b>Resume&#8209;CoPilot</b></a></td>
-      <td>Finds cap-exempt roles, scores ATS fit, writes tailored PDF resumes.</td>
-      <td><sub><code>Python&nbsp;·&nbsp;FastAPI&nbsp;·&nbsp;React&nbsp;·&nbsp;Tailwind</code></sub></td>
+      <td><a href="https://github.com/Mann5700/Job-Application-Resume-CoPilot"><b>Job-Application-Resume-CoPilot</b></a></td>
+      <td>Full-stack app that discovers H-1B cap-exempt roles, scores ATS fit, and generates tailored, ATS-optimized PDF resumes. FastAPI async backend + React/TypeScript/Tailwind frontend.</td>
+      <td><sub><code>Python&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;PowerShell</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/Bird-Sound-Generator"><b>Bird&#8209;Sound&#8209;Generator</b></a></td>
-      <td>A GAN that dreams up brand-new birdsong out of pure random noise.</td>
-      <td><sub><code>Python&nbsp;·&nbsp;Keras</code></sub></td>
+      <td><a href="https://github.com/Mann5700/ReqBridge-AI-Requirements-Intelligence-Engine"><b>ReqBridge-AI-Requirements-Intelligence-Engine</b></a></td>
+      <td>Turns raw requirement docs into prioritized, conflict-checked Azure DevOps work items using a LangGraph agent pipeline.</td>
+      <td><sub><code>Python&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;JavaScript</code></sub></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My&#8209;Finance&#8209;Tracker</b></a></td>
-      <td>Full-stack expense tracker with live totals and spending insights.</td>
-      <td><sub><code>React&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;Node&nbsp;·&nbsp;MongoDB</code></sub></td>
+      <td><a href="https://github.com/Mann5700/Encryption-Decryption-App"><b>Encryption-Decryption-App</b></a></td>
+      <td>An app run using ROT-13 algorithm</td>
+      <td><sub><code>Python</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Windows-Paint-Clone"><b>Windows-Paint-Clone</b></a></td>
+      <td>A miniature MS Paint</td>
+      <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;HTML</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Mann5700/Rock-Paper-Scissors"><b>Rock-Paper-Scissors</b></a></td>
+      <td>A computerized rock, paper, scissors game</td>
+      <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;HTML</code></sub></td>
     </tr>
   </tbody>
 </table>
+<!-- MISSIONS:END -->
 
-<div align="center"><sub>🔭 Every repo now ships with its own diagrammed flight manual - pop the hood any time.</sub></div>
+<div align="center"><sub>🔭 This table rebuilds itself from my live repo list - new missions appear here automatically.</sub></div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 

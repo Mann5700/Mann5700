@@ -28,7 +28,9 @@ import json
 import math
 import os
 import random
+import re
 import sys
+import time
 import urllib.request
 
 USER = os.environ.get("GH_USER", "Mann5700")
@@ -58,14 +60,27 @@ FALLBACK_COLORS = [C_VIOLET, C_PINK, C_CYAN, "#7c3aed", "#e9d5ff", "#38bdf8"]
 
 
 # ---- api ----------------------------------------------------------------
+def _get(url, data=None, headers=None, attempts=3):
+    """HTTP with retry/backoff so a transient 5xx doesn't cost a whole refresh."""
+    last = None
+    for i in range(attempts):
+        try:
+            req = urllib.request.Request(url, data=data, headers=headers or {})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except Exception as exc:  # noqa: BLE001 - retried below, re-raised if final
+            last = exc
+            if i < attempts - 1:
+                time.sleep(2 ** i)
+    raise last
+
+
 def api(path):
     url = path if path.startswith("http") else f"https://api.github.com{path}"
     headers = {"User-Agent": "Mann5700-cards", "Accept": "application/vnd.github+json"}
     if TOKEN:
         headers["Authorization"] = f"Bearer {TOKEN}"
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    return _get(url, headers=headers)
 
 
 GRAPHQL_URL = "https://api.github.com/graphql"
@@ -90,9 +105,7 @@ def graphql(query, variables):
         "Content-Type": "application/json",
         "Authorization": f"Bearer {TOKEN}",
     }
-    req = urllib.request.Request(GRAPHQL_URL, data=payload, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        body = json.load(resp)
+    body = _get(GRAPHQL_URL, data=payload, headers=headers)
     if body.get("errors"):
         raise RuntimeError(body["errors"][0].get("message", "GraphQL error"))
     return body["data"]
@@ -182,6 +195,7 @@ def collect():
     # own byte breakdown. Summing raw bytes instead would be ~98% Jupyter Notebook,
     # because notebooks embed their rendered output in the source file.
     lang_share = {}
+    repo_langs = {}
     for r in owned:
         try:
             breakdown = api(r["languages_url"])
@@ -191,17 +205,29 @@ def collect():
         repo_total = sum(breakdown.values())
         if not repo_total:
             continue
+        ordered = sorted(breakdown.items(), key=lambda kv: kv[1], reverse=True)
+        repo_langs[r["name"]] = [k for k, _ in ordered[:3]]
         for lang, size in breakdown.items():
             lang_share[lang] = lang_share.get(lang, 0.0) + size / repo_total
 
     created = dt.datetime.strptime(user["created_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc)
     years = (dt.datetime.now(dt.timezone.utc) - created).days / 365.25
 
-    try:
-        contributions = fetch_contributions(user["created_at"])
-    except Exception as exc:  # noqa: BLE001 - contributions are optional, never fatal
-        print(f"::warning::contribution fetch skipped: {exc}")
-        contributions = []
+    # A transient GraphQL failure must NOT be swallowed: rendering with an empty
+    # calendar would overwrite good streak/activity cards with "syncing" placeholders.
+    # Letting it raise keeps the last-good SVGs committed in the repo.
+    contributions = fetch_contributions(user["created_at"])
+
+    # Featured = repos that describe themselves. A repo with no description would
+    # only render as filler, so it is skipped until one is set.
+    missions = sorted(
+        (r for r in owned
+         if r["name"].lower() != USER.lower()
+         and (r.get("description") or "").strip()
+         and repo_langs.get(r["name"])),
+        key=lambda r: (r.get("stargazers_count", 0), r.get("pushed_at") or ""),
+        reverse=True,
+    )[:6]
 
     return {
         "name": user.get("name") or USER,
@@ -214,6 +240,13 @@ def collect():
         "langs": sorted(lang_share.items(), key=lambda kv: kv[1], reverse=True),
         "contributions": contributions,
         "streaks": compute_streaks(contributions),
+        "missions": [{
+            "name": r["name"],
+            "url": r["html_url"],
+            "desc": (r.get("description") or "").strip(),
+            "langs": repo_langs.get(r["name"], []),
+            "stars": r.get("stargazers_count", 0),
+        } for r in missions],
     }
 
 
@@ -955,6 +988,61 @@ def render_footer():
     return "\n".join(parts)
 
 
+MISSION_START, MISSION_END = "<!-- MISSIONS:START -->", "<!-- MISSIONS:END -->"
+
+
+def update_missions(d, path="README.md"):
+    """Rewrite the Featured Missions table from live repo data, so new repos
+    show up on their own. No-op if the markers are absent."""
+    missions = d.get("missions") or []
+    if not missions or not os.path.isfile(path):
+        return
+    with open(path, encoding="utf-8") as fh:
+        readme = fh.read()
+    if MISSION_START not in readme or MISSION_END not in readme:
+        print("::warning::mission markers not found in README.md")
+        return
+
+    rows = []
+    for m in missions:
+        desc = esc(m["desc"])
+        if len(desc) > 190:
+            desc = desc[:190].rsplit(" ", 1)[0] + "\u2026"
+        payload = "&nbsp;\u00b7&nbsp;".join(esc(l) for l in m["langs"]) or "\u2014"
+        star = f' <sub>\u2605{m["stars"]}</sub>' if m["stars"] else ""
+        rows.append(
+            "    <tr>\n"
+            f'      <td><a href="{esc(m["url"])}"><b>{esc(m["name"])}</b></a>{star}</td>\n'
+            f"      <td>{desc}</td>\n"
+            f"      <td><sub><code>{payload}</code></sub></td>\n"
+            "    </tr>"
+        )
+
+    block = "\n".join([
+        MISSION_START,
+        '<table width="100%">',
+        "  <thead>",
+        "    <tr>",
+        '      <th align="left" width="23%">\U0001F6F0\uFE0F System</th>',
+        '      <th align="left" width="52%">Mission Briefing</th>',
+        '      <th align="left" width="25%">Payload</th>',
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
+        *rows,
+        "  </tbody>",
+        "</table>",
+        MISSION_END,
+    ])
+
+    updated = re.sub(re.escape(MISSION_START) + r".*?" + re.escape(MISSION_END),
+                     lambda _m: block, readme, flags=re.DOTALL)
+    if updated != readme:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(updated)
+        print(f"Featured Missions refreshed ({len(missions)} repos).")
+
+
 def main():
     try:
         data = collect()
@@ -972,11 +1060,18 @@ def main():
         "typing.svg": render_typing(),
         "footer.svg": render_footer(),
     }
+    no_calendar = not data.get("contributions")
     for name, svg in cards.items():
-        with open(os.path.join(OUT_DIR, name), "w", encoding="utf-8") as fh:
+        path = os.path.join(OUT_DIR, name)
+        # Never downgrade a good card to a "syncing" placeholder.
+        if no_calendar and name in ("streak.svg", "activity.svg") and os.path.exists(path):
+            print(f"::warning::no contribution data this run, keeping last-good {name}")
+            continue
+        with open(path, "w", encoding="utf-8") as fh:
             fh.write(svg + "\n")
     with open(os.path.join("assets", "header.svg"), "w", encoding="utf-8") as fh:
         fh.write(render_header(data) + "\n")
+    update_missions(data)
     streak = data.get("streaks", {})
     print(f"Rendered {len(cards)} cards for @{USER}: "
           f"{data['stars']}\u2605 {data['repos']} repos {data['followers']} followers, "

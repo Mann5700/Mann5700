@@ -40,6 +40,7 @@ jobs:
           git add README.md assets/apod
           if ! git diff --cached --quiet; then
             git commit -m "🛰️ APOD: refresh picture of the day"
+            git pull --rebase --autostash origin main
             git push
           else
             echo "APOD unchanged — nothing to commit."
