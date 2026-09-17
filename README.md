@@ -117,6 +117,11 @@ const mann = {
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Mann5700/Mann5700.github.io"><b>Mann5700.github.io</b></a></td>
+      <td>Personal portfolio - Software Engineer. Astro, static, deployed on GitHub Pages.</td>
+      <td><sub><code>Astro&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;JavaScript</code></sub></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My-Finance-Tracker</b></a></td>
       <td>Full-stack expense tracker with live totals and spending insights, backed by MongoDB.</td>
       <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;JavaScript</code></sub></td>
@@ -139,11 +144,6 @@ const mann = {
     <tr>
       <td><a href="https://github.com/Mann5700/Windows-Paint-Clone"><b>Windows-Paint-Clone</b></a></td>
       <td>A miniature MS Paint</td>
-      <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;HTML</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Mann5700/Rock-Paper-Scissors"><b>Rock-Paper-Scissors</b></a></td>
-      <td>A computerized rock, paper, scissors game</td>
       <td><sub><code>TypeScript&nbsp;·&nbsp;CSS&nbsp;·&nbsp;HTML</code></sub></td>
     </tr>
   </tbody>

@@ -43,7 +43,7 @@
   <text x="272" y="135" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13.5" font-weight="700" fill="#22d3ee">0</text>
   <circle cx="32" cy="158" r="3.4" fill="#a78bfa"><animate attributeName="opacity" values="1;0.4;1" dur="3.70s" repeatCount="indefinite"/></circle><circle cx="32" cy="158" r="7" fill="none" stroke="#a78bfa" stroke-opacity="0.22" stroke-width="1"/>
   <text x="48" y="162" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="13" fill="#c9d1d9">Public Repos</text>
-  <text x="272" y="162" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13.5" font-weight="700" fill="#a78bfa">12</text>
+  <text x="272" y="162" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13.5" font-weight="700" fill="#a78bfa">13</text>
   <circle cx="32" cy="185" r="3.4" fill="#f472b6"><animate attributeName="opacity" values="1;0.4;1" dur="4.15s" repeatCount="indefinite"/></circle><circle cx="32" cy="185" r="7" fill="none" stroke="#f472b6" stroke-opacity="0.22" stroke-width="1"/>
   <text x="48" y="189" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="13" fill="#c9d1d9">Followers</text>
   <text x="272" y="189" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13.5" font-weight="700" fill="#f472b6">1</text>
@@ -52,10 +52,10 @@
   <text x="272" y="216" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13.5" font-weight="700" fill="#22d3ee">1</text>
   <g transform="rotate(-18 372 162)"><path d="M306,162 a66,23 0 1,0 132,0 a66,23 0 1,0 -132,0" fill="none" stroke="#22d3ee" stroke-opacity="0.30" stroke-width="1" stroke-dasharray="3 5"/><circle r="3.6" fill="#22d3ee"><animateMotion path="M306,162 a66,23 0 1,0 132,0 a66,23 0 1,0 -132,0" dur="9s" repeatCount="indefinite"/></circle></g>
   <circle cx="372" cy="162" r="45" fill="none" stroke="#8b949e" stroke-opacity="0.16" stroke-width="9"/>
-  <circle cx="372" cy="162" r="45" fill="none" stroke="url(#strokes)" stroke-width="9" stroke-linecap="round" stroke-dasharray="85.3 197.4" transform="rotate(-90 372 162)" filter="url(#glows)"/>
-  <circle cx="414.6" cy="176.4" r="3.4" fill="#ffffff"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="372" cy="162" r="45" fill="none" stroke="url(#strokes)" stroke-width="9" stroke-linecap="round" stroke-dasharray="80.7 202.0" transform="rotate(-90 372 162)" filter="url(#glows)"/>
+  <circle cx="415.9" cy="172.0" r="3.4" fill="#ffffff"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/></circle>
   <text x="372" y="142" text-anchor="middle" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#8b949e" letter-spacing="1.2">TOP LANG</text>
-  <text x="372" y="170" text-anchor="middle" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="27" font-weight="800" fill="#e6e9ff">30%</text>
+  <text x="372" y="170" text-anchor="middle" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="27" font-weight="800" fill="#e6e9ff">29%</text>
   <text x="372" y="188" text-anchor="middle" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9.5" fill="#22d3ee">TypeScript</text>
   <text x="40" y="238" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" fill="#8b949e">▸ 3.9 light-years in orbit</text>
   </svg>
