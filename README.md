@@ -159,14 +159,14 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Webb's View of M64</h3>
-<p align="center"><sub>🗓️ 2026-09-16</sub></p>
+<h3 align="center">A Treasure Chest in the Carina Nebula</h3>
+<p align="center"><sub>🗓️ 2026-09-17 &nbsp;·&nbsp; 📷 ESA/Webb, NASA &amp; CSA, M. Reiter; Acknowledgement: M. H. Özsaraç  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
 <p align="center">
-  <a href="https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg" width="62%" alt="Webb's View of M64"/>
+  <a href="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg" width="62%" alt="A Treasure Chest in the Carina Nebula"/>
   </a>
 </p>
-<p align="center"><sub>Sometimes where Hubble finds darkness, Webb sees light. An example is today’s composite images of Messier 64 (M64), a nearby spiral galaxy of many names. The dark band of dust partially blocking its bright core earned it the moniker “the Black Eye Galaxy.” Webb’s Mid-InfraRed Instrument (MIRI) sees…</sub></p>
+<p align="center"><sub>This treasure chest is full of stars.   The featured image was obtained with NASA's James Webb Space Telescope and shows a dust pilar in the Carina Nebula inside our Galaxy, roughly 7500 light-years away.   It is formed by interstellar gas and dust, and shaped by powerful stellar winds and…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
