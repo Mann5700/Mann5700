@@ -28,6 +28,11 @@ jobs:
         with:
           python-version: "3.14"
 
+      # Only used on days where every NASA image URL is too big for GitHub's
+      # camo proxy and the picture has to be downscaled and self-hosted.
+      - name: Install Pillow
+        run: python -m pip install --quiet --upgrade Pillow
+
       - name: Fetch & update APOD panel
         env:
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}

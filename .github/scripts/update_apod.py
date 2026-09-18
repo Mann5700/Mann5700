@@ -6,6 +6,7 @@ dependencies need installing. Fails soft: if the API is unreachable or returns
 something unexpected, the existing README is left untouched.
 """
 import base64
+import io
 import json
 import os
 import re
@@ -17,6 +18,12 @@ KEY = os.environ.get("NASA_API_KEY") or "DEMO_KEY"  # DEMO_KEY is fine for 1 cal
 README = "README.md"
 START, END = "<!-- APOD:START -->", "<!-- APOD:END -->"
 FALLBACK = "https://apod.nasa.gov/apod/astropix.html"
+UA = "Mann5700-APOD-bot"
+
+# GitHub proxies every README image through camo, which 404s on anything much
+# bigger than ~5 MB. APOD's `hdurl` is regularly 20-30 MB, so an image that big
+# renders as a broken image on the profile no matter how healthy the API is.
+CAMO_MAX_BYTES = 4_500_000
 
 # Self-hosted composite thumbnail (video days): the poster frame embedded as a
 # data URI with a play-button overlay, committed so GitHub serves it directly.
@@ -24,12 +31,95 @@ THUMB_DIR = os.path.join("assets", "apod")
 THUMB_PATH = os.path.join(THUMB_DIR, "thumb.svg")
 THUMB_REF = "./assets/apod/thumb.svg"
 
+# Last-resort self-hosted copy, downscaled until camo will serve it.
+LOCAL_PATH = os.path.join(THUMB_DIR, "today.jpg")
+LOCAL_REF = "./assets/apod/today.jpg"
+
 
 def fetch():
     url = f"{API}?api_key={KEY}&thumbs=true"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mann5700-APOD-bot"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
+
+
+def probe(url):
+    """Return (size_in_bytes, content_type) for url, or None if unreachable.
+
+    size is 0 when the server does not advertise a Content-Length.
+    """
+    req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            size = int(resp.headers.get("Content-Length") or 0)
+            ctype = (resp.headers.get("Content-Type") or "").split(";")[0].strip()
+            return size, ctype
+    except Exception as exc:  # noqa: BLE001 - treated as "cannot use this URL"
+        print(f"::warning::HEAD {url} failed: {exc}")
+        return None
+
+
+def pick_image(candidates):
+    """First candidate URL that GitHub's camo proxy will actually serve."""
+    for url in candidates:
+        info = probe(url)
+        if info is None:
+            continue
+        size, ctype = info
+        if ctype and not ctype.startswith("image/"):
+            continue
+        if 0 < size <= CAMO_MAX_BYTES:
+            return url
+        print(f"::notice::skipping {url} ({size or 'unknown'} bytes, camo limit {CAMO_MAX_BYTES})")
+    return None
+
+
+def self_host(candidates):
+    """Downscale the first reachable candidate and commit it under assets/apod.
+
+    Used only when every remote URL is too large for camo. Returns the README
+    image reference, or None if the image could not be fetched or resized.
+    """
+    try:
+        from PIL import Image  # noqa: PLC0415 - optional, only needed on oversized days
+    except ImportError:
+        print("::warning::Pillow unavailable, cannot self-host an oversized APOD")
+        return None
+
+    raw = None
+    for url in candidates:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                raw = resp.read()
+            break
+        except Exception as exc:  # noqa: BLE001 - try the next candidate
+            print(f"::warning::download {url} failed: {exc}")
+
+    if not raw:
+        return None
+
+    try:
+        # NASA originals routinely exceed Pillow's 89 MP bomb guard; the source
+        # is trusted, so raise the ceiling rather than disabling it.
+        Image.MAX_IMAGE_PIXELS = 500_000_000
+        img = Image.open(io.BytesIO(raw))
+        img = img.convert("RGB")
+        os.makedirs(THUMB_DIR, exist_ok=True)
+        for width in (1600, 1200, 900, 700):
+            if img.width > width:
+                scaled = img.resize((width, round(img.height * width / img.width)), Image.LANCZOS)
+            else:
+                scaled = img
+            scaled.save(LOCAL_PATH, "JPEG", quality=85, optimize=True, progressive=True)
+            if os.path.getsize(LOCAL_PATH) <= CAMO_MAX_BYTES:
+                print(f"::notice::self-hosted APOD at {width}px ({os.path.getsize(LOCAL_PATH)} bytes)")
+                return LOCAL_REF
+    except Exception as exc:  # noqa: BLE001 - fall back to the raw URL
+        print(f"::warning::could not downscale APOD image: {exc}")
+        return None
+
+    return None
 
 
 def esc(text):
@@ -60,12 +150,16 @@ def build_video_thumb(thumb_url):
     if not thumb_url:
         return None
     try:
-        req = urllib.request.Request(thumb_url, headers={"User-Agent": "Mann5700-APOD-bot"})
+        req = urllib.request.Request(thumb_url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=30) as resp:
             raw = resp.read()
             ctype = resp.headers.get("Content-Type", "image/jpeg").split(";")[0].strip()
     except Exception as exc:  # noqa: BLE001 - fall back to the plain thumbnail URL
         print(f"::warning::video thumbnail download failed: {exc}")
+        return None
+
+    if len(raw) > CAMO_MAX_BYTES // 2:
+        print(f"::warning::video poster too large to embed ({len(raw)} bytes)")
         return None
 
     if not ctype.startswith("image/"):
@@ -124,8 +218,11 @@ def build_block(d):
         link = watch_url(d.get("url"))
         meta = f"\U0001F5D3\uFE0F {date} &nbsp;\u00B7&nbsp; \u25B6\uFE0F video of the day"
     else:
-        img = d.get("hdurl") or d.get("url", "")
-        link = d.get("hdurl") or d.get("url", FALLBACK)
+        # Prefer the web-resolution frame: `hdurl` is routinely 20-30 MB, which
+        # camo refuses to proxy. The full-res original stays as the click target.
+        candidates = list(dict.fromkeys(u for u in (d.get("url"), d.get("hdurl")) if u))
+        img = pick_image(candidates) or self_host(candidates) or (candidates[0] if candidates else "")
+        link = d.get("hdurl") or d.get("url") or FALLBACK
         meta = f"\U0001F5D3\uFE0F {date}"
         if owner:
             meta += f" &nbsp;\u00B7&nbsp; \U0001F4F7 {owner}"
