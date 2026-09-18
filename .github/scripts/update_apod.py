@@ -311,25 +311,36 @@ def build_block(d):
         meta = f"\U0001F5D3\uFE0F {date} &nbsp;\u00B7&nbsp; \u25B6\uFE0F video of the day"
     else:
         # Prefer the web-resolution frame: `hdurl` is routinely 20-30 MB, which
-        # camo refuses to proxy. The full-res original stays as the click target.
+        # camo refuses to proxy. The full-res original stays linked in the footer.
         candidates = list(dict.fromkeys(u for u in (d.get("url"), d.get("hdurl")) if u))
         img = pick_image(candidates) or self_host(candidates) or (candidates[0] if candidates else "")
-        link = d.get("hdurl") or d.get("url") or FALLBACK
+        link = None  # stills are not clickable; GitHub strips target="_blank"
         meta = f"\U0001F5D3\uFE0F {date}"
         if owner:
             meta += f" &nbsp;\u00B7&nbsp; \U0001F4F7 {owner}"
+
+    picture = f'  <img src="{img}" width="62%" alt="{title}"/>'
+    if link:
+        picture = "\n".join([
+            f'  <a href="{link}">',
+            f'  {picture}',
+            '  </a>',
+        ])
+
+    footer = f'<a href="{FALLBACK}">\U0001F517 View today\'s full transmission on NASA APOD \u2192</a>'
+    full_res = d.get("hdurl")
+    if media != "video" and full_res:
+        footer += f' &nbsp;\u00B7&nbsp; <a href="{full_res}">\U0001F50D full resolution</a>'
 
     return "\n".join([
         START,
         f'<h3 align="center">{title}</h3>',
         f'<p align="center"><sub>{meta}</sub></p>',
         '<p align="center">',
-        f'  <a href="{link}" target="_blank" rel="noopener noreferrer">',
-        f'    <img src="{img}" width="62%" alt="{title}"/>',
-        '  </a>',
+        picture,
         '</p>',
         f'<p align="center"><sub>{explanation}</sub></p>',
-        f'<p align="center"><a href="{FALLBACK}">\U0001F517 View today\'s full transmission on NASA APOD \u2192</a></p>',
+        f'<p align="center">{footer}</p>',
         END,
     ])
 
