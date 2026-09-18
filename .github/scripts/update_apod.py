@@ -326,6 +326,9 @@ def build_block(d):
             f'  {picture}',
             '  </a>',
         ])
+    else:
+        # GitHub auto-wraps a bare <img> in a link to its camo URL; <picture> stops that.
+        picture = f'  <picture>{picture.strip()}</picture>'
 
     footer = f'<a href="{FALLBACK}">\U0001F517 View today\'s full transmission on NASA APOD \u2192</a>'
     full_res = d.get("hdurl")
