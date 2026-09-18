@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Fetch NASA's Astronomy Picture of the Day and refresh the APOD panel in README.md.
 
-Runs daily from a GitHub Action. Uses only the Python standard library so no
-dependencies need installing. Fails soft: if the API is unreachable or returns
+Runs daily from a GitHub Action. Standard library only, apart from an optional
+Pillow import used to downscale the rare picture that is too large for GitHub's
+image proxy. Sources are tried in order: the JSON API (with retries), then
+apod.nasa.gov's own page. Fails soft: if both are unreachable or return
 something unexpected, the existing README is left untouched.
 """
 import base64
@@ -11,7 +13,10 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.parse
 import urllib.request
+from html import unescape
 
 API = "https://api.nasa.gov/planetary/apod"
 KEY = os.environ.get("NASA_API_KEY") or "DEMO_KEY"  # DEMO_KEY is fine for 1 call/day
@@ -37,10 +42,97 @@ LOCAL_REF = "./assets/apod/today.jpg"
 
 
 def fetch():
+    """APOD payload from the JSON API, retried a few times.
+
+    api.nasa.gov reliably throws 500s for a stretch after each UTC midnight,
+    before the new entry is published.
+    """
     url = f"{API}?api_key={KEY}&thumbs=true"
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    last = None
+    for attempt in range(3):
+        if attempt:
+            time.sleep(5 * attempt)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except Exception as exc:  # noqa: BLE001 - retried, then the page is scraped
+            last = exc
+            print(f"::warning::APOD API attempt {attempt + 1} failed: {exc}")
+    raise last
+
+
+def strip_tags(html):
+    text = re.sub(r"(?s)<.*?>", " ", html)
+    text = unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    # Removing inline links leaves stray gaps like "stars ." and "NASA 's".
+    text = re.sub(r"\s+([,.;:!?%])", r"\1", text)
+    text = re.sub(r"\s*/\s*", "/", text)
+    text = re.sub(r"\(\s+", "(", text)
+    text = re.sub(r"\s+\)", ")", text)
+    return re.sub(r"\s+(['\u2019])", r"\1", text)
+
+
+def scrape():
+    """Rebuild the APOD payload from apod.nasa.gov's own page.
+
+    The HTML page is the source of truth and stays up even when the JSON API
+    is throwing 500s, so it keeps the panel current on API outage days.
+    """
+    req = urllib.request.Request(FALLBACK, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+        html = resp.read().decode("utf-8", "replace")
+
+    base = "https://apod.nasa.gov/apod/"
+    data = {"media_type": "image"}
+
+    m = re.search(r"(\d{4})\s+([A-Z][a-z]+)\s+(\d{1,2})\s*<br", html)
+    if m:
+        months = ["January", "February", "March", "April", "May", "June", "July",
+                  "August", "September", "October", "November", "December"]
+        try:
+            data["date"] = f"{m.group(1)}-{months.index(m.group(2)) + 1:02d}-{int(m.group(3)):02d}"
+        except ValueError:
+            pass
+
+    m = re.search(r"</center>\s*<center>\s*<b>\s*(.*?)\s*</b>", html, re.I | re.S)
+    if m:
+        data["title"] = strip_tags(m.group(1))
+
+    m = re.search(r"<b>\s*Image Credit[^<]*</b>(.*?)<b>", html, re.I | re.S)
+    if m:
+        data["copyright"] = strip_tags(m.group(1))
+
+    m = re.search(r"<b>\s*Explanation:\s*</b>(.*?)<p>\s*<center>", html, re.I | re.S)
+    if m:
+        data["explanation"] = strip_tags(m.group(1))
+
+    m = re.search(r"<iframe[^>]+src=[\"']([^\"']+)[\"']", html, re.I)
+    if m:
+        data["media_type"] = "video"
+        data["url"] = m.group(1)
+        vid = re.search(r"(?:youtube\.com/embed/|youtu\.be/)([\w-]+)", m.group(1))
+        if vid:
+            data["thumbnail_url"] = f"https://img.youtube.com/vi/{vid.group(1)}/maxresdefault.jpg"
+        return data
+
+    m = re.search(r"<img\s+src=[\"']([^\"']+)[\"']", html, re.I)
+    if m:
+        data["url"] = urllib.parse.urljoin(base, m.group(1))
+    m = re.search(r"<a\s+href=[\"'](image/[^\"']+)[\"']\s*>\s*<img", html, re.I)
+    if m:
+        data["hdurl"] = urllib.parse.urljoin(base, m.group(1))
+
+    return data
+
+
+def load_apod():
+    try:
+        return fetch()
+    except Exception as exc:  # noqa: BLE001 - the HTML page is the backup source
+        print(f"::warning::APOD API unavailable ({exc}), falling back to the APOD page")
+        return scrape()
 
 
 def probe(url):
@@ -244,7 +336,7 @@ def build_block(d):
 
 def main():
     try:
-        data = fetch()
+        data = load_apod()
     except Exception as exc:  # noqa: BLE001 - fail soft, never break the profile
         print(f"::warning::APOD fetch failed, keeping existing panel: {exc}")
         return 0

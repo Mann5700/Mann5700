@@ -160,13 +160,13 @@ const mann = {
 
 <!-- APOD:START -->
 <h3 align="center">A Treasure Chest in the Carina Nebula</h3>
-<p align="center"><sub>🗓️ 2026-09-17 &nbsp;·&nbsp; 📷 ESA/Webb, NASA &amp; CSA, M. Reiter; Acknowledgement: M. H. Özsaraç  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<p align="center"><sub>🗓️ 2026-09-17 &nbsp;·&nbsp; 📷 ESA/Webb, NASA &amp; CSA, M. Reiter; Acknowledgement: M. H. Özsaraç Text: Cecilia Chirenti (NASA GSFC, UMCP, CRESST II)</sub></p>
 <p align="center">
   <a href="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg" width="62%" alt="A Treasure Chest in the Carina Nebula"/>
+    <img src="https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest_800.jpg" width="62%" alt="A Treasure Chest in the Carina Nebula"/>
   </a>
 </p>
-<p align="center"><sub>This treasure chest is full of stars.   The featured image was obtained with NASA's James Webb Space Telescope and shows a dust pilar in the Carina Nebula inside our Galaxy, roughly 7500 light-years away.   It is formed by interstellar gas and dust, and shaped by powerful stellar winds and…</sub></p>
+<p align="center"><sub>This treasure chest is full of stars. The featured image was obtained with NASA's James Webb Space Telescope and shows a dust pillar in the Carina Nebula inside our Galaxy, roughly 7500 light-years away. It is formed by interstellar gas and dust, and shaped by powerful stellar winds and radiation…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
