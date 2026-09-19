@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Messier 33: The Triangulum Galaxy</h3>
-<p align="center"><sub>🗓️ 2026-09-18 &nbsp;·&nbsp; 📷 George Chatzifrantzis</sub></p>
+<h3 align="center">A Zodiacal Night</h3>
+<p align="center"><sub>🗓️ 2026-09-19 &nbsp;·&nbsp; 📷 Neelam and Ajay Talwar</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM1024.jpg" width="62%" alt="Messier 33: The Triangulum Galaxy"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP1024.jpg" width="62%" alt="A Zodiacal Night"/></picture>
 </p>
-<p align="center"><sub>The small, northern constellation Triangulum harbors this magnificent face-on spiral galaxy, Messier 33. Its popular names include the Pinwheel Galaxy or just the Triangulum Galaxy. M33 is over 50,000 light-years in diameter, third largest in the Local Group of galaxies after the Andromeda Galaxy…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>Also known as the false dawn, a luminous band of zodiacal light is captured in this dark night skyscape. The serene view was recorded just before the beginning of astronomical twilight during September's star party at the remote Hanle Dark Sky Reserve, Ladakh, India, planet Earth. At about 4,500…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
