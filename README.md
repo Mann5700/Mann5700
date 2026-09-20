@@ -119,7 +119,7 @@ const mann = {
     <tr>
       <td><a href="https://github.com/Mann5700/Mann5700.github.io"><b>Mann5700.github.io</b></a></td>
       <td>Personal portfolio - Software Engineer. Astro, static, deployed on GitHub Pages.</td>
-      <td><sub><code>Astro&nbsp;·&nbsp;TypeScript&nbsp;·&nbsp;JavaScript</code></sub></td>
+      <td><sub><code>Astro&nbsp;·&nbsp;HTML&nbsp;·&nbsp;TypeScript</code></sub></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Mann5700/My-Finance-Tracker"><b>My-Finance-Tracker</b></a></td>

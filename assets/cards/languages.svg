@@ -37,20 +37,20 @@
   <clipPath id="barl"><rect x="24" y="84" width="432" height="15" rx="7.5"/></clipPath>
   <g clip-path="url(#barl)">
   <rect x="24" y="84" width="432" height="15" fill="#151b33"/>
-  <rect x="24.00" y="84" width="123.55" height="15" fill="#3178c6"/>
-  <rect x="147.55" y="84" width="104.11" height="15" fill="#3572A5"/>
-  <rect x="251.66" y="84" width="43.20" height="15" fill="#f34b7d"/>
-  <rect x="294.86" y="84" width="43.20" height="15" fill="#DA5B0B"/>
-  <rect x="338.06" y="84" width="43.20" height="15" fill="#b07219"/>
-  <rect x="381.26" y="84" width="74.74" height="15" fill="#64748b"/>
+  <rect x="24.00" y="84" width="122.26" height="15" fill="#3178c6"/>
+  <rect x="146.26" y="84" width="104.11" height="15" fill="#3572A5"/>
+  <rect x="250.37" y="84" width="43.20" height="15" fill="#f34b7d"/>
+  <rect x="293.57" y="84" width="43.20" height="15" fill="#DA5B0B"/>
+  <rect x="336.77" y="84" width="43.20" height="15" fill="#b07219"/>
+  <rect x="379.97" y="84" width="76.03" height="15" fill="#64748b"/>
   <rect x="-70" y="84" width="70" height="15" fill="#ffffff" opacity="0.16"><animate attributeName="x" values="-70;480" dur="5.5s" repeatCount="indefinite"/></rect>
   </g>
   <rect x="24" y="84" width="432" height="15" rx="7.5" fill="none" stroke="#a78bfa" stroke-opacity="0.35"/>
   <circle cx="34" cy="120" r="4.6" fill="#3178c6"/><circle cx="34" cy="120" r="8" fill="none" stroke="#3178c6" stroke-opacity="0.28" stroke-width="1"><animate attributeName="r" values="8;9.6;8" dur="3.40s" repeatCount="indefinite"/></circle>
   <text x="50" y="124" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="12.5" fill="#c9d1d9">TypeScript</text>
   <rect x="214" y="115" width="168" height="6" rx="3" fill="#1b2340"/>
-  <rect x="214" y="115" width="48.0" height="6" rx="3" fill="#3178c6"/>
-  <text x="456" y="124" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#3178c6">28.6%</text>
+  <rect x="214" y="115" width="47.5" height="6" rx="3" fill="#3178c6"/>
+  <text x="456" y="124" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#3178c6">28.3%</text>
   <circle cx="34" cy="142" r="4.6" fill="#3572A5"/><circle cx="34" cy="142" r="8" fill="none" stroke="#3572A5" stroke-opacity="0.28" stroke-width="1"><animate attributeName="r" values="8;9.6;8" dur="3.75s" repeatCount="indefinite"/></circle>
   <text x="50" y="146" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="12.5" fill="#c9d1d9">Python</text>
   <rect x="214" y="137" width="168" height="6" rx="3" fill="#1b2340"/>
@@ -74,7 +74,7 @@
   <circle cx="34" cy="230" r="4.6" fill="#64748b"/><circle cx="34" cy="230" r="8" fill="none" stroke="#64748b" stroke-opacity="0.28" stroke-width="1"><animate attributeName="r" values="8;9.6;8" dur="5.15s" repeatCount="indefinite"/></circle>
   <text x="50" y="234" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="12.5" fill="#c9d1d9">Other (7)</text>
   <rect x="214" y="225" width="168" height="6" rx="3" fill="#1b2340"/>
-  <rect x="214" y="225" width="29.1" height="6" rx="3" fill="#64748b"/>
-  <text x="456" y="234" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#64748b">17.3%</text>
+  <rect x="214" y="225" width="29.6" height="6" rx="3" fill="#64748b"/>
+  <text x="456" y="234" text-anchor="end" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#64748b">17.6%</text>
   <text x="40" y="245" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#8b949e">▸ averaged per repository · 12 languages detected · totals 100%</text>
   </svg>
