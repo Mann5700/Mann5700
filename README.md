@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">A Zodiacal Night</h3>
-<p align="center"><sub>🗓️ 2026-09-19 &nbsp;·&nbsp; 📷 Neelam and Ajay Talwar</sub></p>
+<h3 align="center">Analemma over the Callanish Stones</h3>
+<p align="center"><sub>🗓️ 2026-09-20 &nbsp;·&nbsp; 📷 Giuseppe Petricca</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP1024.jpg" width="62%" alt="A Zodiacal Night"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_960.jpg" width="62%" alt="Analemma over the Callanish Stones"/></picture>
 </p>
-<p align="center"><sub>Also known as the false dawn, a luminous band of zodiacal light is captured in this dark night skyscape. The serene view was recorded just before the beginning of astronomical twilight during September's star party at the remote Hanle Dark Sky Reserve, Ladakh, India, planet Earth. At about 4,500…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>If you went outside at the same time every day and took a picture that included the Sun, how would the Sun's position change?  A visual answer to that question is an analemma, a composite image taken from the same spot at the same time over the course of a year.  The featured analemma was composed…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_1280.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
