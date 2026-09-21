@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Analemma over the Callanish Stones</h3>
-<p align="center"><sub>🗓️ 2026-09-20 &nbsp;·&nbsp; 📷 Giuseppe Petricca</sub></p>
+<h3 align="center">Cocoon Nebula Wide Field</h3>
+<p align="center"><sub>🗓️ 2026-09-21 &nbsp;·&nbsp; 📷 Piotr Czerski</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_960.jpg" width="62%" alt="Analemma over the Callanish Stones"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/Cocoon_Czerski_1080.jpg" width="62%" alt="Cocoon Nebula Wide Field"/></picture>
 </p>
-<p align="center"><sub>If you went outside at the same time every day and took a picture that included the Sun, how would the Sun's position change?  A visual answer to that question is an analemma, a composite image taken from the same spot at the same time over the course of a year.  The featured analemma was composed…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_1280.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>When does a nebula look like a comet?  In this crowded starfield covering over two degrees within the high-flying constellation of the Swan (Cygnus), the eye is drawn to the Cocoon Nebula.  A compact star forming region, the cosmic Cocoon punctuates a nebula bright in emission and reflection on the…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/Cocoon_Czerski_3000.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
