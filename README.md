@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Chance Triple Alignment: Plane, Space Station, Sun</h3>
-<p align="center"><sub>🗓️ 2026-09-22 &nbsp;·&nbsp; 📷 Petr Horalek / Inst. Physics Opava</sub></p>
+<h3 align="center">A New Lunar Crater: McGetchin</h3>
+<p align="center"><sub>🗓️ 2026-09-23</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_960.jpg" width="62%" alt="Chance Triple Alignment: Plane, Space Station, Sun"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg" width="62%" alt="A New Lunar Crater: McGetchin"/></picture>
 </p>
-<p align="center"><sub>This shot captured an unexpected silhouette. Which is it?  It isn't the sunspots, the small dark regions caused by concentrated magnetic fields visible around the Sun's bright disk. Sunspots typically last for weeks and were expected, since these spots were seen previously.  It isn’t the…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_1500.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>A once-in-a-lifetime crater has appeared on the Moon! A comet or asteroid roughly the size of a humpback whale (approximately 10-20 meters, 30-60 feet) crashed into the Moon sometime between April and May of 2024. The Lunar Reconnaissance Orbiter (LRO), with its monthly monitoring of the Moon,…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
