@@ -56,6 +56,6 @@
   <text x="240.0" y="243" text-anchor="middle" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#8b949e" letter-spacing="0.5">LANGUAGES</text>
   <rect x="321.3" y="174" width="138.7" height="80" rx="12" fill="#111935" fill-opacity="0.82" stroke="#22d3ee" stroke-opacity="0.38"><animate attributeName="stroke-opacity" values="0.38;0.8;0.38" dur="5.45s" repeatCount="indefinite"/></rect>
   <path d="M390.7,185.5 L392.7,191.2 L398.8,191.4 L393.9,195.1 L395.7,200.9 L390.7,197.4 L385.7,200.9 L387.4,195.1 L382.6,191.4 L388.7,191.2 Z" fill="#22d3ee" filter="url(#glowt)"><animateTransform attributeName="transform" type="rotate" values="0 390.7 194;360 390.7 194" dur="24s" repeatCount="indefinite"/></path>
-  <text x="390.7" y="226" text-anchor="middle" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="21" font-weight="800" fill="#e6e9ff">3.9</text>
+  <text x="390.7" y="226" text-anchor="middle" font-family="'Segoe UI', Verdana, system-ui, sans-serif" font-size="21" font-weight="800" fill="#e6e9ff">4.0</text>
   <text x="390.7" y="243" text-anchor="middle" font-family="'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#8b949e" letter-spacing="0.5">LIGHT-YEARS</text>
   </svg>
