@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">The Ghosts of Five Supernovas</h3>
-<p align="center"><sub>🗓️ 2026-09-24 &nbsp;·&nbsp; 📷 Stephane Vetter, Yann Sainty  Text:  Cecilia Chirenti  (NASA GSFC,  UMCP,  CRESST II)</sub></p>
+<h3 align="center">Globular Cluster Omega Centauri</h3>
+<p align="center"><sub>🗓️ 2026-09-25 &nbsp;·&nbsp; 📷 Javier O. Cadenas Parra</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/5SNR_Auriga_1000.jpg" width="62%" alt="The Ghosts of Five Supernovas"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra1024.jpg" width="62%" alt="Globular Cluster Omega Centauri"/></picture>
 </p>
-<p align="center"><sub>The ghosts of five supernovas haunt this extraordinary image.   It was acquired at Oukaïmeden Observatory in Morocco with approximately 200 hours of observations and shows a large patch of the sky, equivalent to the area of one thousand full moons tiled together, in the constellation of Auriga (the…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/5SNR_Auriga_2000.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>Globular star cluster Omega Centauri packs about 10 million stars much older than the Sun into a volume some 150 light-years in diameter. Also known as NGC 5139, at a distance of 15,000 light-years it's the largest and brightest of 200 or so known globular clusters that roam the halo of our Milky…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
