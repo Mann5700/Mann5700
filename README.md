@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Globular Cluster Omega Centauri</h3>
-<p align="center"><sub>🗓️ 2026-09-25 &nbsp;·&nbsp; 📷 Javier O. Cadenas Parra</sub></p>
+<h3 align="center">Mirrored Meteor and Milky Way</h3>
+<p align="center"><sub>🗓️ 2026-09-26 &nbsp;·&nbsp; 📷 Jeff Dai</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra1024.jpg" width="62%" alt="Globular Cluster Omega Centauri"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai1024.jpg" width="62%" alt="Mirrored Meteor and Milky Way"/></picture>
 </p>
-<p align="center"><sub>Globular star cluster Omega Centauri packs about 10 million stars much older than the Sun into a volume some 150 light-years in diameter. Also known as NGC 5139, at a distance of 15,000 light-years it's the largest and brightest of 200 or so known globular clusters that roam the halo of our Milky…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>On August 15, this perseid meteor streaked through night skies over the Observatorio del Roque de los Muchachos at La Palma, Canary Islands, Spain. The bright and colorful meteor trail was captured next to the central Milky Way, whose dark interstellar dust clouds and luminous starlight reach above…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
