@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Mirrored Meteor and Milky Way</h3>
-<p align="center"><sub>🗓️ 2026-09-26 &nbsp;·&nbsp; 📷 Jeff Dai</sub></p>
+<h3 align="center">Andromeda before Photoshop</h3>
+<p align="center"><sub>🗓️ 2026-09-27</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai1024.jpg" width="62%" alt="Mirrored Meteor and Milky Way"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_960.jpg" width="62%" alt="Andromeda before Photoshop"/></picture>
 </p>
-<p align="center"><sub>On August 15, this perseid meteor streaked through night skies over the Observatorio del Roque de los Muchachos at La Palma, Canary Islands, Spain. The bright and colorful meteor trail was captured next to the central Milky Way, whose dark interstellar dust clouds and luminous starlight reach above…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>What does the Andromeda galaxy really look like? The featured image shows how our Milky Way Galaxy's closest major galactic neighbor really appears in a long exposure through Earth's busy skies and with a digital camera that introduces normal imperfections.  The picture is a stack of 223 images,…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
