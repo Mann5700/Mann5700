@@ -159,13 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Cosmic Latte: The Average Color of the Universe</h3>
-<p align="center"><sub>🗓️ 2026-09-28</sub></p>
+<h3 align="center">Sh2-188: The Shrimp Nebula</h3>
+<p align="center"><sub>🗓️ 2026-09-29 &nbsp;·&nbsp; 📷 Pawel Piechnik</sub></p>
 <p align="center">
-  <picture><img src="https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960_annotated.jpg" width="62%" alt="Cosmic Latte: The Average Color of the Universe"/></picture>
+  <picture><img src="https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_960.jpg" width="62%" alt="Sh2-188: The Shrimp Nebula"/></picture>
 </p>
-<p align="center"><sub>What color is the universe?  More precisely, if the entire sky were smeared out, what color would the final mix be?  This whimsical question came up when trying to determine what stars are commonplace in nearby galaxies. The answer, depicted here, is a conditionally perceived shade of beige. In…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg">🔍 full resolution</a></p>
+<p align="center"><sub>What causes the swirl in the Shrimp Nebula? Its high speed is likely.  What is sure is that Sh2-188 is one of the larger planetary nebulas on the night sky, by angular size, spanning about half the diameter of the Moon.  Moreover, the white-dwarf core -- leftover from the Sun-like star that shed…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
