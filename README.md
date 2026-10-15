@@ -159,15 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Astronomy Picture of the Day</h3>
-<p align="center"><sub>🗓️  &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">NASA Science</h3>
+<p align="center"><sub>🗓️ 2026-10-15</sub></p>
 <p align="center">
-  <a href="https://www.googletagmanager.com/ns.html?id=GTM-NLJ258M">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Astronomy Picture of the Day"/>
-  </a>
+  <picture><img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="62%" alt="NASA Science"/></picture>
 </p>
-<p align="center"><sub></sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
+<p align="center"><sub>The city lights outshine the stars in the City That Never Sleeps. Who would have thought that the Milky Way could be visible in this sky? This image was taken with a filter that blocks most visible light, capturing instead only light in the near-infrared region of the electromagnetic spectrum (with…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
