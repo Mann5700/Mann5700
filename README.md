@@ -160,11 +160,11 @@ const mann = {
 
 <!-- APOD:START -->
 <h3 align="center">NASA Science</h3>
-<p align="center"><sub>🗓️ 2026-11-01</sub></p>
+<p align="center"><sub>🗓️ 2026-11-02</sub></p>
 <p align="center">
   <picture><img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="62%" alt="NASA Science"/></picture>
 </p>
-<p align="center"><sub>What color is the Moon? It depends on the night -- and the time. Outside of the Earth's atmosphere, the dark Moon, which shines by reflected sunlight, appears a magnificently brown-tinged gray. The featured image highlights a collection of apparent colors of the full moon on Earth, documented by…</sub></p>
+<p align="center"><sub>What’s causing this unusually long cloud on Mars? Known as the Arsia Mons Elongated Cloud (AMEC) and first recorded by NASA’s Viking Orbiter 2 in 1977, the strange cloud has been imaged in greater detail more recently by ESA’s robotic Mars Express spacecraft. The featured image is from 2018. The…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
