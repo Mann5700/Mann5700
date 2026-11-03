@@ -159,13 +159,15 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">NASA Science</h3>
-<p align="center"><sub>🗓️ 2026-11-02</sub></p>
+<h3 align="center">Astronomy Picture of the Day</h3>
+<p align="center"><sub>🗓️  &nbsp;·&nbsp; ▶️ video of the day</sub></p>
 <p align="center">
-  <picture><img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="62%" alt="NASA Science"/></picture>
+  <a href="https://www.googletagmanager.com/ns.html?id=GTM-NLJ258M">
+    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Astronomy Picture of the Day"/>
+  </a>
 </p>
-<p align="center"><sub>What’s causing this unusually long cloud on Mars? Known as the Arsia Mons Elongated Cloud (AMEC) and first recorded by NASA’s Viking Orbiter 2 in 1977, the strange cloud has been imaged in greater detail more recently by ESA’s robotic Mars Express spacecraft. The featured image is from 2018. The…</sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png">🔍 full resolution</a></p>
+<p align="center"><sub></sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
