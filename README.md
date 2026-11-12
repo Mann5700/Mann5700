@@ -160,11 +160,11 @@ const mann = {
 
 <!-- APOD:START -->
 <h3 align="center">NASA Science</h3>
-<p align="center"><sub>🗓️ 2026-11-11</sub></p>
+<p align="center"><sub>🗓️ 2026-11-12</sub></p>
 <p align="center">
   <picture><img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="62%" alt="NASA Science"/></picture>
 </p>
-<p align="center"><sub>Don’t judge a galaxy by its size. Our home galaxy, the Milky Way, is about 100,000 light years across. This huge expanse of space contains hundreds of billions of stars! The smallest galaxies, called dwarf galaxies, are about 1/10th the size of the Milky Way and only contain a few billion stars.…</sub></p>
+<p align="center"><sub>Not all those who wander are lost. A night sky example is that planets wander, and in fact the very word "planet" comes from "wandering star" in Greek. As planets shift relative to fixed stars, they may appear from our perspective to get closer to other astronomical objects. Such meetings are…</sub></p>
 <p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
