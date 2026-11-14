@@ -159,15 +159,13 @@ const mann = {
 <div align="center"><sub>📷 A fresh view of the cosmos, pulled straight from NASA's APOD API and re-transmitted here <b>every&nbsp;day</b> by a GitHub Action.</sub></div>
 
 <!-- APOD:START -->
-<h3 align="center">Astronomy Picture of the Day</h3>
-<p align="center"><sub>🗓️  &nbsp;·&nbsp; ▶️ video of the day</sub></p>
+<h3 align="center">NASA Science</h3>
+<p align="center"><sub>🗓️ 2026-11-14</sub></p>
 <p align="center">
-  <a href="https://www.googletagmanager.com/ns.html?id=GTM-NLJ258M">
-    <img src="https://apod.nasa.gov/apod/image/apod.jpg" width="62%" alt="Astronomy Picture of the Day"/>
-  </a>
+  <picture><img src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" width="62%" alt="NASA Science"/></picture>
 </p>
-<p align="center"><sub></sub></p>
-<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a></p>
+<p align="center"><sub>Put on your red/blue glasses and gaze across the western Ocean of Storms on the surface of the Moon. The 3D anaglyph shows Apollo 12 astronaut Pete Conrad visiting the Surveyor 3 spacecraft in November of 1969. Surveyor 3 had landedat the site on the inside slope of a small crater about 2 1/2 years…</sub></p>
+<p align="center"><a href="https://apod.nasa.gov/apod/astropix.html">🔗 View today's full transmission on NASA APOD →</a> &nbsp;·&nbsp; <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png">🔍 full resolution</a></p>
 <!-- APOD:END -->
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
